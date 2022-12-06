@@ -1,0 +1,1455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 28, 154.75" name="dblinq">
+  <DataContextMoniker Name="/dblinqDataContext" />
+  <nestedChildShapes>
+    <classShape Id="de0e7964-a32f-449b-862f-f2b96d0b930b" absoluteBounds="3.75, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/dblinqDataContext/__MigrationHistory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5f82c2c0-3079-45e6-8a08-24f8351e15e6" absoluteBounds="3.765, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0003e63f-caf8-41ff-8bab-f82398b4254e" absoluteBounds="3.5, 41, 2, 2.5401025390625023">
+      <DataClassMoniker Name="/dblinqDataContext/Tag" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b2b89f09-a8b2-44a6-85a3-f49add8ace40" absoluteBounds="3.515, 41.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="038d97eb-4839-4e02-9c58-7f917369e9ce" absoluteBounds="6.5, 48.875, 2, 2.1554996744791595">
+      <DataClassMoniker Name="/dblinqDataContext/AgeGroup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5e9a2f8e-b8cb-4b41-bad4-ca0ee184bce1" absoluteBounds="6.515, 49.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="42b15636-8d29-4cc2-a593-01d40d292c55" absoluteBounds="9.75, 4.75, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/dblinqDataContext/AppSetting" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ec5eaabf-6565-4873-bc84-30b96f8f2b0d" absoluteBounds="9.765, 5.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a8305d2d-9a0e-402a-a427-2effee947c5d" absoluteBounds="12.25, 51.625, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/dblinqDataContext/AspNetRole" />
+      <nestedChildShapes>
+        <elementListCompartment Id="99325cfc-2f96-4b7c-92fa-5b6b660c59c9" absoluteBounds="12.265, 52.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="862377f4-837f-478f-b72f-632b3bdd0abe" absoluteBounds="12, 56.375, 2, 1.5785953776041595">
+      <DataClassMoniker Name="/dblinqDataContext/AspNetUserClaim" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b31c40a7-ded9-446b-98dc-51d7c1a0ba01" absoluteBounds="12.015, 56.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9f7d9abf-1c39-4a3a-b863-37fad4ff542e" absoluteBounds="12, 54.25, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/dblinqDataContext/AspNetUserLogin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="22e891fa-5ae0-4432-bccf-6e1b6d10804b" absoluteBounds="12.015, 54.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="123a90d6-ac5d-4378-9410-50ca4287d75c" absoluteBounds="15, 57, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/dblinqDataContext/AspNetUserRole" />
+      <nestedChildShapes>
+        <elementListCompartment Id="beb94423-c76d-44cc-afc2-499ca74b9da9" absoluteBounds="15.015, 57.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b310bfa9-5883-421f-9846-9e4bf74329bb" absoluteBounds="9.25, 48.875, 2, 17.347312825520838">
+      <DataClassMoniker Name="/dblinqDataContext/AspNetUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0e37c4c5-75e2-4fe8-8106-a050506de98b" absoluteBounds="9.265, 49.335, 1.9700000000000002, 16.787312825520832" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="81968bc9-e88b-4ab6-a643-3aa7198360a0" absoluteBounds="6.5, 45.75, 2, 2.3478011067708309">
+      <DataClassMoniker Name="/dblinqDataContext/AspNetUsersActivation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="37bf46d9-8806-4232-ba0c-3282553ff8e4" absoluteBounds="6.515, 46.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2fd54dc7-27c6-4aee-b7ed-a5569129d526" absoluteBounds="6.5, 41.875, 2, 2.3478011067708309">
+      <DataClassMoniker Name="/dblinqDataContext/AspNetUsersCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0db2b375-fe23-4226-88c8-668f7126ea69" absoluteBounds="6.515, 42.335, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ccd63181-6d29-4a5b-a8bf-e2c81d2cd260" absoluteBounds="12, 58.75, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/dblinqDataContext/AspNetUsersDevice" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6d512c12-872f-489c-8877-3f247330765e" absoluteBounds="12.015, 59.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="008c0482-5057-43f4-8c3c-81eac7e7e908" absoluteBounds="6.5, 56.875, 2, 2.1554996744791595">
+      <DataClassMoniker Name="/dblinqDataContext/AspNetUsersStatus" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4b95f055-a67c-4df0-83c6-dac82be29a02" absoluteBounds="6.515, 57.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="86ad756b-7682-4e47-897d-47fdb4c539fb" absoluteBounds="3.5, 96.5, 2, 3.8862125651041595">
+      <DataClassMoniker Name="/dblinqDataContext/Branch" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8a3fcae3-169b-4400-af26-6e28eac5032f" absoluteBounds="3.515, 96.96, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="11322911-07f6-4070-ba44-a5477e5f7e2d" absoluteBounds="12.75, 4.75, 2, 3.1170068359375005">
+      <DataClassMoniker Name="/dblinqDataContext/BrandItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="74154ebd-ddb6-4e3b-9a3b-7007e5181a7c" absoluteBounds="12.765, 5.21, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a40e40bf-6b1c-4ac4-ad50-7de7cd2950b7" absoluteBounds="9.5, 78.875, 2, 3.8862125651041595">
+      <DataClassMoniker Name="/dblinqDataContext/Career" />
+      <nestedChildShapes>
+        <elementListCompartment Id="96c31ae5-1e55-4d6b-9eca-ba6b9e6312c2" absoluteBounds="9.515, 79.335, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="10c4c607-4edc-4f65-9f70-dc8c6adaed08" absoluteBounds="15.25, 61.5, 2, 4.078513997395838">
+      <DataClassMoniker Name="/dblinqDataContext/CareerApplication" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8435ded8-5600-429c-836a-f1e354218fb0" absoluteBounds="15.265, 61.96, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="49b52a80-8c41-4585-9227-612ae5d6dac4" absoluteBounds="9.5, 84.25, 2, 9.07835123697916">
+      <DataClassMoniker Name="/dblinqDataContext/Company" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c5f72088-1407-44c6-821d-a79e96800abc" absoluteBounds="9.515, 84.71, 1.9700000000000002, 8.5183512369791661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c97a4228-ae94-4599-98d6-6c7991939001" absoluteBounds="15.25, 81.75, 2, 7.1553369140625023">
+      <DataClassMoniker Name="/dblinqDataContext/CompanyContactInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e4709615-a153-43e4-8956-5dfebc061ff9" absoluteBounds="15.265, 82.21, 1.9700000000000002, 6.5953369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ea9a7a5f-0e35-42ee-983f-080ff236cdcd" absoluteBounds="3.5, 105.75, 2, 6.1938297526041595">
+      <DataClassMoniker Name="/dblinqDataContext/ContactInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="85f2f970-4c74-4a6f-87d6-f750cbdb5cad" absoluteBounds="3.515, 106.21, 1.9700000000000002, 5.6338297526041661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="44ad55f5-2ff8-4e55-90a5-6f424d616df8" absoluteBounds="3.5, 44.25, 2, 2.5401025390625023">
+      <DataClassMoniker Name="/dblinqDataContext/ContactTitle" />
+      <nestedChildShapes>
+        <elementListCompartment Id="951cc568-4cdc-466d-bef7-5a8b37f7bbc6" absoluteBounds="3.515, 44.71, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="07a127b4-ba7e-4842-96d2-81501503b9b0" absoluteBounds="3.5, 127, 2, 7.3476383463541737">
+      <DataClassMoniker Name="/dblinqDataContext/CorporatePage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d404c0c4-20f1-4179-88d5-3073d13a72d5" absoluteBounds="3.515, 127.46, 1.9700000000000002, 6.7876383463541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ea82aa12-f5f2-4971-9c88-87001697a8c4" absoluteBounds="6.25, 102.125, 2, 9.4629541015625023">
+      <DataClassMoniker Name="/dblinqDataContext/CorporatePageSection" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5c2229cc-899b-4d4b-97a2-6846cf4b0fb3" absoluteBounds="6.265, 102.585, 1.9700000000000002, 8.9029541015625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4c0fa785-6e69-4c47-afd3-d5ba5797fd96" absoluteBounds="9, 105.125, 2, 3.3093082682291595">
+      <DataClassMoniker Name="/dblinqDataContext/CorporatePageSectionMedia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d72fa7da-c7c3-4189-8376-6435b5802f61" absoluteBounds="9.015, 105.585, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9daa6c9e-d4b6-49a5-9c31-2b21a87e8edc" absoluteBounds="3.5, 35.75, 2, 4.2708154296875023">
+      <DataClassMoniker Name="/dblinqDataContext/Country" />
+      <nestedChildShapes>
+        <elementListCompartment Id="817c36aa-0a0e-48af-a259-5ec1fa80e73a" absoluteBounds="3.515, 36.21, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c57a36f4-4a4f-4beb-90b6-632836dfaae4" absoluteBounds="3.5, 119.625, 2, 6.5784326171875023">
+      <DataClassMoniker Name="/dblinqDataContext/Director" />
+      <nestedChildShapes>
+        <elementListCompartment Id="97759f43-eeb6-42c2-b43c-b0ea60637e81" absoluteBounds="3.515, 120.085, 1.9700000000000002, 6.0184326171875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cbf11397-2911-4aa1-abd0-648a58306942" absoluteBounds="3.5, 64.25, 2, 2.9247054036458451">
+      <DataClassMoniker Name="/dblinqDataContext/EmailTemplate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a0caaaef-2ad3-4635-9e66-5b2fd974ca02" absoluteBounds="3.515, 64.71, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="daebdd07-0941-4a90-a9bd-be631e895793" absoluteBounds="3.5, 71.625, 2, 3.1170068359375023">
+      <DataClassMoniker Name="/dblinqDataContext/History" />
+      <nestedChildShapes>
+        <elementListCompartment Id="099e9848-3b82-4130-ba92-96890e958c89" absoluteBounds="3.515, 72.085, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e9b68d54-d44b-4c6e-8bb3-1e674b34fd1e" absoluteBounds="12.75, 8.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/dblinqDataContext/ImageResize" />
+      <nestedChildShapes>
+        <elementListCompartment Id="58d84589-e083-4e03-b25a-a14012e7160c" absoluteBounds="12.765, 9.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="45feffa2-8db1-48b6-a746-669cdbd1bd09" absoluteBounds="6.25, 51.875, 2, 3.8862125651041595">
+      <DataClassMoniker Name="/dblinqDataContext/Inquiry" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b0f36ada-5694-46fd-a5b5-4ddae0a28881" absoluteBounds="6.265, 52.335, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8e90bb35-d576-4a5e-a73c-de2bdf1c797d" absoluteBounds="12.5, 1, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/dblinqDataContext/KConfig" />
+      <nestedChildShapes>
+        <elementListCompartment Id="13a0349b-5c60-418c-b1d3-b070a266d38e" absoluteBounds="12.515, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="38e942f9-ee7e-4677-b626-220dec5bdcfd" absoluteBounds="9.75, 1, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/dblinqDataContext/KConfigCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2ecebdf2-1267-4d38-af29-01e8fbced945" absoluteBounds="9.765, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d2df2a8d-6351-4593-b0c7-a9075832e657" absoluteBounds="12, 61.25, 2, 3.5016097005208309">
+      <DataClassMoniker Name="/dblinqDataContext/KMSLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="00509c60-5fe6-4ec8-a190-bc3e1ac23a1f" absoluteBounds="12.015, 61.71, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="916e75d9-63a1-42b3-a18b-8c8a281a22ce" absoluteBounds="15, 26.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/dblinqDataContext/KMSPermission" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d528ab04-b68e-4e9c-a309-fac412f8c283" absoluteBounds="15.015, 26.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a1e9d02d-2340-4c7e-91af-606cf3386266" absoluteBounds="12.25, 26.25, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/dblinqDataContext/KMSPermissionType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7fd88e8a-0f45-4397-aac1-a0cf11674ce7" absoluteBounds="12.265, 26.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a0d898de-853a-48fd-b250-331db8245c0e" absoluteBounds="0.75, 1, 2, 4.2708154296875">
+      <DataClassMoniker Name="/dblinqDataContext/KMSSection" />
+      <nestedChildShapes>
+        <elementListCompartment Id="93c827a8-bfb4-40d9-a336-1f7d295e76ae" absoluteBounds="0.765, 1.46, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" absoluteBounds="0.75, 79.375, 2, 2.9247054036458451">
+      <DataClassMoniker Name="/dblinqDataContext/Language" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4e9f0464-1db4-40d7-ae42-05b2ee8f5bcc" absoluteBounds="0.765, 79.835, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a934c5c7-5932-40b7-932a-90f33a7fdb22" absoluteBounds="3.75, 91.875, 2, 1.7708968098958451">
+      <DataClassMoniker Name="/dblinqDataContext/LanguageResource" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bdfe43ce-f7fe-4811-8e4a-6f14e30bbb9a" absoluteBounds="3.765, 92.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5a4b1834-06dc-4c3f-a426-2eaa5bfca5a7" absoluteBounds="6.5, 76.75, 2, 2.1554996744791595">
+      <DataClassMoniker Name="/dblinqDataContext/LanguageResourceTranslation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4499a227-770b-4543-864b-97121aa44cbc" absoluteBounds="6.515, 77.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="57111ffd-27da-4ab8-b419-b4e244b6aa59" absoluteBounds="3.5, 112.75, 2, 6.1938297526041595">
+      <DataClassMoniker Name="/dblinqDataContext/Management" />
+      <nestedChildShapes>
+        <elementListCompartment Id="77b08d50-49e6-44ac-92c5-c00aae5268bd" absoluteBounds="3.515, 113.21, 1.9700000000000002, 5.6338297526041661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1f94ceef-7305-4be7-81c3-491ca8a40562" absoluteBounds="9.25, 67.125, 2, 3.6939111328125023">
+      <DataClassMoniker Name="/dblinqDataContext/New" />
+      <nestedChildShapes>
+        <elementListCompartment Id="af7ac4cf-4120-4f85-a850-8e284c3d5be8" absoluteBounds="9.265, 67.585, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c4006e6b-abb1-4de7-acd3-4d3a4b13e3b4" absoluteBounds="12, 67.75, 2, 2.3478011067708451">
+      <DataClassMoniker Name="/dblinqDataContext/NewMedia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="78d7de4c-bb6e-4974-bc0f-cce5c6bc9b75" absoluteBounds="12.015, 68.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e5944b03-7bfd-477e-b91f-d06ce40a258d" absoluteBounds="3.5, 47.625, 2, 2.5401025390625023">
+      <DataClassMoniker Name="/dblinqDataContext/NewsCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="35a6c58d-d9c6-4ba6-88fa-5b9ab5941889" absoluteBounds="3.515, 48.085, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0bf514be-93a5-456e-819b-4c35f5c8cd0a" absoluteBounds="3.5, 144.875, 2, 9.0783512369791879">
+      <DataClassMoniker Name="/dblinqDataContext/NewsCommunication" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7610ea87-65eb-42e9-8076-5532b3946fe1" absoluteBounds="3.515, 145.335, 1.9700000000000002, 8.5183512369791661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1b644752-8d2b-4509-9580-08ee708154b5" absoluteBounds="6.25, 147.75, 2, 3.3093082682291879">
+      <DataClassMoniker Name="/dblinqDataContext/NewsCommunicationMedia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="21722339-d92d-4442-8355-13effc85c6a1" absoluteBounds="6.265, 148.21, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="75ef1ad8-1a08-41dd-b66c-e10c6896f780" absoluteBounds="3.75, 8.5, 2, 4.8477197265624987">
+      <DataClassMoniker Name="/dblinqDataContext/Newsletter" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b147618d-b350-433c-85b7-d05760f55a44" absoluteBounds="3.765, 8.96, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4af1e0ce-6c24-47eb-ad41-f92a760bdd00" absoluteBounds="6.5, 15, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/dblinqDataContext/NewsletterImageSection" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ad900d0f-7d1a-47a1-aa97-d68ee4297b28" absoluteBounds="6.515, 15.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ba9c61ee-112e-4ed8-99c1-18305eaa49a2" absoluteBounds="6.5, 3.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/dblinqDataContext/NewsletterInterestSection" />
+      <nestedChildShapes>
+        <elementListCompartment Id="91c2764f-9656-4720-b9ff-7a9e8e5bc163" absoluteBounds="6.515, 4.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3e825388-98d5-476b-9b9b-4bc221e60187" absoluteBounds="6.5, 19.625, 2, 4.6554182942708309">
+      <DataClassMoniker Name="/dblinqDataContext/NewsletterUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7d89f25a-cef3-42ed-9cba-99983db9be84" absoluteBounds="6.515, 20.085, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="30a898bd-2cca-4cba-9b4f-9207d04ea1ac" absoluteBounds="3.75, 3.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/dblinqDataContext/NewsletterUserCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f203e3c2-6586-4f0a-aafd-a65949630693" absoluteBounds="3.765, 4.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f379ca3e-eadb-41b1-9d4f-7fb87be895c6" absoluteBounds="3.5, 50.875, 2, 2.5401025390625023">
+      <DataClassMoniker Name="/dblinqDataContext/PartnerCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4ed29d93-4c56-44cf-9bd7-57b4ca90ab6c" absoluteBounds="3.515, 51.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b198888f-d47c-49d6-8d38-5017a1ae7be8" absoluteBounds="6.25, 64.875, 2, 3.3093082682291595">
+      <DataClassMoniker Name="/dblinqDataContext/Partner" />
+      <nestedChildShapes>
+        <elementListCompartment Id="88c2f72c-e2ba-43d3-a74f-1b526cd5cac7" absoluteBounds="6.265, 65.335, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d29810ff-c73e-4e2e-a535-85a921f78c1e" absoluteBounds="13, 77.75, 2, 2.9247054036458451">
+      <DataClassMoniker Name="/dblinqDataContext/Portfolio" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dbd324e2-2fa0-4f02-afc2-87ce4e746b1c" absoluteBounds="13.015, 78.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="12287d74-3d64-4e4e-95b9-9a566a976bed" absoluteBounds="6.25, 79.75, 2, 2.3478011067708451">
+      <DataClassMoniker Name="/dblinqDataContext/PostMedia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="00bee8f8-c0ab-49e9-9e44-f6790d9e751f" absoluteBounds="6.265, 80.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="baa8a78f-3ee7-407b-9de3-6fd5f8ea98db" absoluteBounds="6.25, 60.625, 2, 2.3478011067708309">
+      <DataClassMoniker Name="/dblinqDataContext/PostTag" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c6e5c32b-d475-403d-aa30-12f63d22153f" absoluteBounds="6.265, 61.085, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b0406dac-3d28-42f1-9293-49b99f840d91" absoluteBounds="3.5, 54.125, 2, 2.5401025390625023">
+      <DataClassMoniker Name="/dblinqDataContext/PowerCapacity" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7e39d550-fbff-4390-8a65-7de3a0758019" absoluteBounds="3.515, 54.585, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f450595e-1f1e-4429-86ca-4a8d74e21aba" absoluteBounds="12, 72.75, 2, 2.3478011067708451">
+      <DataClassMoniker Name="/dblinqDataContext/ProductMedia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="41775c99-0d71-4b6e-8e26-432e2274d820" absoluteBounds="12.015, 73.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7c002a1a-82db-45d4-86e7-72b0ee3275d0" absoluteBounds="3.5, 57.5, 2, 2.5401025390625023">
+      <DataClassMoniker Name="/dblinqDataContext/ProjectCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="892f860f-6a75-40d1-a93f-3f7d0fa62125" absoluteBounds="3.515, 57.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9556b692-a241-4083-81e5-ba7d2d63729c" absoluteBounds="12.75, 12.75, 2, 3.1170068359375023">
+      <DataClassMoniker Name="/dblinqDataContext/PushNotification" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0be108e0-9f1e-49f2-9d07-a6eac104c324" absoluteBounds="12.765, 13.21, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bccf2c91-b5cb-49a3-bab6-01de1a4570a3" absoluteBounds="3.5, 67.875, 2, 2.9247054036458451">
+      <DataClassMoniker Name="/dblinqDataContext/Region" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dcb34726-ccf5-4157-bf70-68cfc1c4ad1a" absoluteBounds="3.515, 68.335, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f6204a56-4c9a-4b36-a890-b63c4f711bda" absoluteBounds="12.25, 84.375, 2, 3.8862125651041595">
+      <DataClassMoniker Name="/dblinqDataContext/Report" />
+      <nestedChildShapes>
+        <elementListCompartment Id="76950726-a73b-4826-ad63-0bae56b280af" absoluteBounds="12.265, 84.835, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c6d4ea13-d0b3-457d-a90a-a703b9771af4" absoluteBounds="6.75, 8.125, 2, 6.0015283203124987">
+      <DataClassMoniker Name="/dblinqDataContext/Setting" />
+      <nestedChildShapes>
+        <elementListCompartment Id="560fc2d4-8072-4d28-8d0f-23c9551ad193" absoluteBounds="6.765, 8.585, 1.9700000000000002, 5.4415283203125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7adc2982-3535-4b96-b8eb-8c992eebe67d" absoluteBounds="9.5, 9.875, 2, 2.5401025390624987">
+      <DataClassMoniker Name="/dblinqDataContext/SettingsFile" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1cacfada-2b5a-4192-90e2-05d8d2e23643" absoluteBounds="9.515, 10.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6be1bdc0-7874-4e5a-96ce-ecf9e69261fb" absoluteBounds="0.75, 14.75, 2, 1.9631982421874987">
+      <DataClassMoniker Name="/dblinqDataContext/SignalRUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c8e2d80c-186f-4327-ba8d-76460570203a" absoluteBounds="0.765, 15.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c7eb42cd-07f2-4491-bb3c-327c103f36ff" absoluteBounds="3.5, 75.375, 2, 3.1170068359375023">
+      <DataClassMoniker Name="/dblinqDataContext/SocialMedia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="71dd0e85-b607-4fbf-bda4-3d0ff344c5b4" absoluteBounds="3.515, 75.835, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.20923076923077 : 43.5401025390625); (4.20923076923077 : 43.7901025390625); (4.80461538461539 : 43.7901025390625); (4.80461538461539 : 43.5401025390625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Tag/Tag_Tag" />
+      <nodes>
+        <classShapeMoniker Id="0003e63f-caf8-41ff-8bab-f82398b4254e" />
+        <classShapeMoniker Id="0003e63f-caf8-41ff-8bab-f82398b4254e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.15625 : 53.3958968098958); (14.15625 : 58.1050439453125); (15 : 58.1050439453125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/AspNetRole/AspNetRole_AspNetUserRole" />
+      <nodes>
+        <classShapeMoniker Id="a8305d2d-9a0e-402a-a427-2effee947c5d" />
+        <classShapeMoniker Id="123a90d6-ac5d-4378-9410-50ca4287d75c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.25 : 57.1642976888021); (12 : 57.1642976888021)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/AspNetUser/AspNetUser_AspNetUserClaim" />
+      <nodes>
+        <classShapeMoniker Id="b310bfa9-5883-421f-9846-9e4bf74329bb" />
+        <classShapeMoniker Id="862377f4-837f-478f-b72f-632b3bdd0abe" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.25 : 54.9431469726563); (12 : 54.9431469726563)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/AspNetUser/AspNetUser_AspNetUserLogin" />
+      <nodes>
+        <classShapeMoniker Id="b310bfa9-5883-421f-9846-9e4bf74329bb" />
+        <classShapeMoniker Id="9f7d9abf-1c39-4a3a-b863-37fad4ff542e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.25 : 60.8854484049479); (15.09375 : 60.8854484049479); (15.09375 : 58.1939925130208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/AspNetUser/AspNetUser_AspNetUserRole" />
+      <nodes>
+        <classShapeMoniker Id="b310bfa9-5883-421f-9846-9e4bf74329bb" />
+        <classShapeMoniker Id="123a90d6-ac5d-4378-9410-50ca4287d75c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 49.9527498372396); (9.25 : 49.9527498372396)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/AgeGroup/AgeGroup_AspNetUser" />
+      <nodes>
+        <classShapeMoniker Id="038d97eb-4839-4e02-9c58-7f917369e9ce" />
+        <classShapeMoniker Id="b310bfa9-5883-421f-9846-9e4bf74329bb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 46.9239005533854); (10.25 : 46.9239005533854); (10.25 : 48.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/AspNetUsersActivation/AspNetUsersActivation_AspNetUser" />
+      <nodes>
+        <classShapeMoniker Id="81968bc9-e88b-4ab6-a643-3aa7198360a0" />
+        <classShapeMoniker Id="b310bfa9-5883-421f-9846-9e4bf74329bb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 43.0489005533854); (9.07291666666667 : 43.0489005533854 : JumpStart); (9.23958333333333 : 43.0489005533854 : JumpEnd); (9.36978791666667 : 43.0489005533854 : JumpStart); (9.53645458333333 : 43.0489005533854 : JumpEnd); (9.7187475 : 43.0489005533854); (9.7187475 : 48.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/AspNetUsersCategory/AspNetUsersCategory_AspNetUser" />
+      <nodes>
+        <classShapeMoniker Id="2fd54dc7-27c6-4aee-b7ed-a5569129d526" />
+        <classShapeMoniker Id="b310bfa9-5883-421f-9846-9e4bf74329bb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.25 : 59.6354484049479); (12 : 59.6354484049479)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/AspNetUser/AspNetUser_AspNetUsersDevice" />
+      <nodes>
+        <classShapeMoniker Id="b310bfa9-5883-421f-9846-9e4bf74329bb" />
+        <classShapeMoniker Id="ccd63181-6d29-4a5b-a8bf-e2c81d2cd260" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 57.9527498372396); (8.66666666666667 : 57.9527498372396 : JumpStart); (8.83333333333333 : 57.9527498372396 : JumpEnd); (8.91666666666667 : 57.9527498372396 : JumpStart); (9.23958333333333 : 57.9527498372396 : JumpEnd); (9.25 : 57.9527498372396)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/AspNetUsersStatus/AspNetUsersStatus_AspNetUser" />
+      <nodes>
+        <classShapeMoniker Id="008c0482-5057-43f4-8c3c-81eac7e7e908" />
+        <classShapeMoniker Id="b310bfa9-5883-421f-9846-9e4bf74329bb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.20923076923077 : 100.386212565104); (4.20923076923077 : 100.636212565104); (4.80461538461539 : 100.636212565104); (4.80461538461539 : 100.386212565104)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Branch/Branch_Branch" />
+      <nodes>
+        <classShapeMoniker Id="86ad756b-7682-4e47-897d-47fdb4c539fb" />
+        <classShapeMoniker Id="86ad756b-7682-4e47-897d-47fdb4c539fb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.2092307692308 : 82.7612125651042); (10.2092307692308 : 83.0112125651042); (10.8046153846154 : 83.0112125651042); (10.8046153846154 : 82.7612125651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Career/Career_Career" />
+      <nodes>
+        <classShapeMoniker Id="a40e40bf-6b1c-4ac4-ad50-7de7cd2950b7" />
+        <classShapeMoniker Id="a40e40bf-6b1c-4ac4-ad50-7de7cd2950b7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 81.2436017018229); (13.9166666666667 : 81.2436017018229 : JumpStart); (14.0833333333333 : 81.2436017018229 : JumpEnd); (14.3229166666667 : 81.2436017018229 : JumpStart); (14.4895833333333 : 81.2436017018229 : JumpEnd); (14.5104166666667 : 81.2436017018229 : JumpStart); (14.6770833333333 : 81.2436017018229 : JumpEnd); (15.75 : 81.2436017018229); (15.75 : 73.125); (16.18750025 : 73.125); (16.18750025 : 65.5785139973958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Career/Career_CareerApplication" />
+      <nodes>
+        <classShapeMoniker Id="a40e40bf-6b1c-4ac4-ad50-7de7cd2950b7" />
+        <classShapeMoniker Id="10c4c607-4edc-4f65-9f70-dc8c6adaed08" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(15.9592307692308 : 61.5); (15.9592307692308 : 61.25); (16.5546153846154 : 61.25); (16.5546153846154 : 61.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/CareerApplication/CareerApplication_CareerApplication" />
+      <nodes>
+        <classShapeMoniker Id="10c4c607-4edc-4f65-9f70-dc8c6adaed08" />
+        <classShapeMoniker Id="10c4c607-4edc-4f65-9f70-dc8c6adaed08" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.79211538461539 : 84.25); (9.79211538461539 : 82.7612125651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Company/Company_Career" />
+      <nodes>
+        <classShapeMoniker Id="49b52a80-8c41-4585-9227-612ae5d6dac4" />
+        <classShapeMoniker Id="a40e40bf-6b1c-4ac4-ad50-7de7cd2950b7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.2092307692308 : 93.3283512369792); (10.2092307692308 : 93.5783512369792); (10.8046153846154 : 93.5783512369792); (10.8046153846154 : 93.3283512369792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Company/Company_Company" />
+      <nodes>
+        <classShapeMoniker Id="49b52a80-8c41-4585-9227-612ae5d6dac4" />
+        <classShapeMoniker Id="49b52a80-8c41-4585-9227-612ae5d6dac4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.5 : 88.7891756184896); (9.25 : 88.7891756184896); (9.25 : 90.9746159229768); (9.5 : 90.9746159229768)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Company/Company_Company1" />
+      <nodes>
+        <classShapeMoniker Id="49b52a80-8c41-4585-9227-612ae5d6dac4" />
+        <classShapeMoniker Id="49b52a80-8c41-4585-9227-612ae5d6dac4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 88.6145247395833); (11.6666666666667 : 88.6145247395833 : JumpStart); (11.8333333333333 : 88.6145247395833 : JumpEnd); (14.3229166666667 : 88.6145247395833 : JumpStart); (14.4895833333333 : 88.6145247395833 : JumpEnd); (15.25 : 88.6145247395833)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Company/Company_CompanyContactInfo" />
+      <nodes>
+        <classShapeMoniker Id="49b52a80-8c41-4585-9227-612ae5d6dac4" />
+        <classShapeMoniker Id="c97a4228-ae94-4599-98d6-6c7991939001" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(15.9592307692308 : 88.9053369140625); (15.9592307692308 : 89.1553369140625); (16.5546153846154 : 89.1553369140625); (16.5546153846154 : 88.9053369140625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/CompanyContactInfo/CompanyContactInfo_CompanyContactInfo" />
+      <nodes>
+        <classShapeMoniker Id="c97a4228-ae94-4599-98d6-6c7991939001" />
+        <classShapeMoniker Id="c97a4228-ae94-4599-98d6-6c7991939001" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.20923076923077 : 111.943829752604); (4.20923076923077 : 112.193829752604); (4.80461538461539 : 112.193829752604); (4.80461538461539 : 111.943829752604)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/ContactInfo/ContactInfo_ContactInfo" />
+      <nodes>
+        <classShapeMoniker Id="ea9a7a5f-0e35-42ee-983f-080ff236cdcd" />
+        <classShapeMoniker Id="ea9a7a5f-0e35-42ee-983f-080ff236cdcd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 44.96875); (5.72916666666667 : 44.96875 : JumpStart); (5.89583333333333 : 44.96875 : JumpEnd); (6.22916416666667 : 44.96875 : JumpStart); (6.42708333333333 : 44.96875 : JumpEnd); (9.07291666666667 : 44.96875 : JumpStart); (9.23958333333333 : 44.96875 : JumpEnd); (9.36978791666667 : 44.96875 : JumpStart); (9.53645458333333 : 44.96875 : JumpEnd); (9.63541416666667 : 44.96875 : JumpStart); (9.80208083333333 : 44.96875 : JumpEnd); (10.7812525 : 44.96875); (10.7812525 : 48.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/ContactTitle/ContactTitle_AspNetUser" />
+      <nodes>
+        <classShapeMoniker Id="44ad55f5-2ff8-4e55-90a5-6f424d616df8" />
+        <classShapeMoniker Id="b310bfa9-5883-421f-9846-9e4bf74329bb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 45.3593775); (5.72916666666667 : 45.3593775 : JumpStart); (5.89583333333333 : 45.3593775 : JumpEnd); (6.04166666666667 : 45.3593775 : JumpStart); (6.20833333333333 : 45.3593775 : JumpEnd); (6.22916416666667 : 45.3593775 : JumpStart); (6.42708333333333 : 45.3593775 : JumpEnd); (9.07291666666667 : 45.3593775 : JumpStart); (9.23958333333333 : 45.3593775 : JumpEnd); (9.36978791666667 : 45.3593775 : JumpStart); (9.53645458333333 : 45.3593775 : JumpEnd); (9.63541416666667 : 45.3593775 : JumpStart); (9.80208083333333 : 45.3593775 : JumpEnd); (10.6979191666667 : 45.3593775 : JumpStart); (10.8645858333333 : 45.3593775 : JumpEnd); (15.9166666666667 : 45.3593775 : JumpStart); (16.0833333333333 : 45.3593775 : JumpEnd); (17.15625 : 45.3593775); (17.15625 : 61.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/ContactTitle/ContactTitle_CareerApplication" />
+      <nodes>
+        <classShapeMoniker Id="44ad55f5-2ff8-4e55-90a5-6f424d616df8" />
+        <classShapeMoniker Id="10c4c607-4edc-4f65-9f70-dc8c6adaed08" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.20923076923077 : 46.7901025390625); (4.20923076923077 : 47.0401025390625); (4.80461538461539 : 47.0401025390625); (4.80461538461539 : 46.7901025390625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/ContactTitle/ContactTitle_ContactTitle" />
+      <nodes>
+        <classShapeMoniker Id="44ad55f5-2ff8-4e55-90a5-6f424d616df8" />
+        <classShapeMoniker Id="44ad55f5-2ff8-4e55-90a5-6f424d616df8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.20923076923077 : 134.347638346354); (4.20923076923077 : 134.597638346354); (4.80461538461539 : 134.597638346354); (4.80461538461539 : 134.347638346354)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/CorporatePage/CorporatePage_CorporatePage" />
+      <nodes>
+        <classShapeMoniker Id="07a127b4-ba7e-4842-96d2-81501503b9b0" />
+        <classShapeMoniker Id="07a127b4-ba7e-4842-96d2-81501503b9b0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.20923076923077 : 127); (4.20923076923077 : 126.75); (4.80461538461539 : 126.75); (4.80461538461539 : 127)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/CorporatePage/CorporatePage_CorporatePage1" />
+      <nodes>
+        <classShapeMoniker Id="07a127b4-ba7e-4842-96d2-81501503b9b0" />
+        <classShapeMoniker Id="07a127b4-ba7e-4842-96d2-81501503b9b0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 130.673819173177); (7.25 : 130.673819173177); (7.25 : 111.587954101563)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/CorporatePage/CorporatePage_CorporatePageSection" />
+      <nodes>
+        <classShapeMoniker Id="07a127b4-ba7e-4842-96d2-81501503b9b0" />
+        <classShapeMoniker Id="ea82aa12-f5f2-4971-9c88-87001697a8c4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.71 : 102.125); (6.71 : 101.875); (7.05615384615385 : 101.875); (7.05615384615385 : 102.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/CorporatePageSection/CorporatePageSection_CorporatePageSection" />
+      <nodes>
+        <classShapeMoniker Id="ea82aa12-f5f2-4971-9c88-87001697a8c4" />
+        <classShapeMoniker Id="ea82aa12-f5f2-4971-9c88-87001697a8c4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.25 : 104.576365271935); (6 : 104.576365271935); (6 : 106.856477050781); (6.25 : 106.856477050781)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/CorporatePageSection/CorporatePageSection_CorporatePageSection1" />
+      <nodes>
+        <classShapeMoniker Id="ea82aa12-f5f2-4971-9c88-87001697a8c4" />
+        <classShapeMoniker Id="ea82aa12-f5f2-4971-9c88-87001697a8c4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 106.779654134115); (9 : 106.779654134115)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/CorporatePageSection/CorporatePageSection_CorporatePageSectionMedia" />
+      <nodes>
+        <classShapeMoniker Id="ea82aa12-f5f2-4971-9c88-87001697a8c4" />
+        <classShapeMoniker Id="4c0fa785-6e69-4c47-afd3-d5ba5797fd96" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 37.8854077148438); (9.07291666666667 : 37.8854077148438 : JumpStart); (9.23958333333333 : 37.8854077148438 : JumpEnd); (9.45312125 : 37.8854077148438); (9.45312125 : 48.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Country/Country_AspNetUser" />
+      <nodes>
+        <classShapeMoniker Id="9daa6c9e-d4b6-49a5-9c31-2b21a87e8edc" />
+        <classShapeMoniker Id="b310bfa9-5883-421f-9846-9e4bf74329bb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 36.7864518574219); (17.1249975 : 36.7864518574219); (17.1249975 : 61.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Country/Country_CareerApplication" />
+      <nodes>
+        <classShapeMoniker Id="9daa6c9e-d4b6-49a5-9c31-2b21a87e8edc" />
+        <classShapeMoniker Id="10c4c607-4edc-4f65-9f70-dc8c6adaed08" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 40.0208154296875); (4.5 : 40.75); (5.8125 : 40.75); (5.8125 : 87.125); (6.29166666666667 : 87.125 : JumpStart); (6.45833333333333 : 87.125 : JumpEnd); (7.88147435897436 : 87.125 : JumpStart); (8.04814102564102 : 87.125 : JumpEnd); (8.26822541666667 : 87.125 : JumpStart); (8.53645583333333 : 87.125 : JumpEnd); (8.57291666666667 : 87.125 : JumpStart); (8.73958333333333 : 87.125 : JumpEnd); (8.91666666666667 : 87.125 : JumpStart); (9.08333333333333 : 87.125 : JumpEnd); (9.125 : 87.125); (9.125 : 89.2415019355469); (9.16666666666667 : 89.2415019355469 : JumpStart); (9.33333333333333 : 89.2415019355469 : JumpEnd); (9.5 : 89.2415019355469)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Country/Country_Company" />
+      <nodes>
+        <classShapeMoniker Id="9daa6c9e-d4b6-49a5-9c31-2b21a87e8edc" />
+        <classShapeMoniker Id="49b52a80-8c41-4585-9227-612ae5d6dac4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.20923076923077 : 126.203432617188); (4.20923076923077 : 126.453432617188); (4.80461538461539 : 126.453432617188); (4.80461538461539 : 126.203432617188)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Director/Director_Director" />
+      <nodes>
+        <classShapeMoniker Id="c57a36f4-4a4f-4beb-90b6-632836dfaae4" />
+        <classShapeMoniker Id="c57a36f4-4a4f-4beb-90b6-632836dfaae4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.20923076923077 : 67.1747054036458); (4.20923076923077 : 67.4247054036458); (4.80461538461539 : 67.4247054036458); (4.80461538461539 : 67.1747054036458)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/EmailTemplate/EmailTemplate_EmailTemplate" />
+      <nodes>
+        <classShapeMoniker Id="cbf11397-2911-4aa1-abd0-648a58306942" />
+        <classShapeMoniker Id="cbf11397-2911-4aa1-abd0-648a58306942" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.20923076923077 : 74.7420068359375); (4.20923076923077 : 74.9920068359375); (4.80461538461539 : 74.9920068359375); (4.80461538461539 : 74.7420068359375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/History/History_History" />
+      <nodes>
+        <classShapeMoniker Id="daebdd07-0941-4a90-a9bd-be631e895793" />
+        <classShapeMoniker Id="daebdd07-0941-4a90-a9bd-be631e895793" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 44.5781225); (6.34375 : 44.5781225); (6.34375 : 51.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/ContactTitle/ContactTitle_Inquiry" />
+      <nodes>
+        <classShapeMoniker Id="44ad55f5-2ff8-4e55-90a5-6f424d616df8" />
+        <classShapeMoniker Id="45feffa2-8db1-48b6-a746-669cdbd1bd09" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 38.9843635722656); (6.3124975 : 38.9843635722656); (6.3124975 : 51.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Country/Country_Inquiry" />
+      <nodes>
+        <classShapeMoniker Id="9daa6c9e-d4b6-49a5-9c31-2b21a87e8edc" />
+        <classShapeMoniker Id="45feffa2-8db1-48b6-a746-669cdbd1bd09" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.75 : 2.17390055338542); (12.5 : 2.17390055338542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/KConfigCategory/KConfigCategory_KConfig" />
+      <nodes>
+        <classShapeMoniker Id="38e942f9-ee7e-4677-b626-220dec5bdcfd" />
+        <classShapeMoniker Id="8e90bb35-d576-4a5e-a73c-de2bdf1c797d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.25 : 63.0008048502604); (12 : 63.0008048502604)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/AspNetUser/AspNetUser_KMSLog" />
+      <nodes>
+        <classShapeMoniker Id="b310bfa9-5883-421f-9846-9e4bf74329bb" />
+        <classShapeMoniker Id="d2df2a8d-6351-4593-b0c7-a9075832e657" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.25 : 52.5104484049479); (16 : 52.5104484049479); (16 : 28.0785953776042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/AspNetRole/AspNetRole_KMSPermission" />
+      <nodes>
+        <classShapeMoniker Id="a8305d2d-9a0e-402a-a427-2effee947c5d" />
+        <classShapeMoniker Id="916e75d9-63a1-42b3-a18b-8c8a281a22ce" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.25 : 27.2892976888021); (15 : 27.2892976888021)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/KMSPermissionType/KMSPermissionType_KMSPermission" />
+      <nodes>
+        <classShapeMoniker Id="a1e9d02d-2340-4c7e-91af-606cf3386266" />
+        <classShapeMoniker Id="916e75d9-63a1-42b3-a18b-8c8a281a22ce" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.61140055338542); (9.07291666666667 : 3.61140055338542 : JumpStart); (9.23958333333333 : 3.61140055338542 : JumpEnd); (16 : 3.61140055338542); (16 : 26.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dblinqDataContext/KMSSection/KMSSection_KMSPermission" />
+      <nodes>
+        <classShapeMoniker Id="a0d898de-853a-48fd-b250-331db8245c0e" />
+        <classShapeMoniker Id="916e75d9-63a1-42b3-a18b-8c8a281a22ce" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.45923076923077 : 5.2708154296875); (1.45923076923077 : 5.5208154296875); (2.05461538461538 : 5.5208154296875); (2.05461538461538 : 5.2708154296875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/KMSSection/KMSSection_KMSSection" />
+      <nodes>
+        <classShapeMoniker Id="a0d898de-853a-48fd-b250-331db8245c0e" />
+        <classShapeMoniker Id="a0d898de-853a-48fd-b250-331db8245c0e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.45923076923077 : 1); (1.45923076923077 : 0.75); (2.05461538461538 : 0.75); (2.05461538461538 : 1)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/KMSSection/KMSSection_KMSSection1" />
+      <nodes>
+        <classShapeMoniker Id="a0d898de-853a-48fd-b250-331db8245c0e" />
+        <classShapeMoniker Id="a0d898de-853a-48fd-b250-331db8245c0e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 79.375); (1.75 : 42.2700512695313); (3.5 : 42.2700512695313)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_Tag" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="0003e63f-caf8-41ff-8bab-f82398b4254e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.22076923076923 : 82.2997054036458); (2.47436484724461 : 82.4433173988776 : JumpStart); (2.61939115275539 : 82.5254462518324 : JumpEnd); (2.80248684724461 : 82.6291339195035 : JumpStart); (3.07251315275539 : 82.7820506656146 : JumpEnd); (3.08373684724461 : 82.7884066791052 : JumpStart); (3.22876315275539 : 82.87053553206 : JumpEnd); (3.4375 : 82.9887438651843); (3.4375 : 98.4431062825521); (3.5 : 98.4431062825521)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_Branch" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="86ad756b-7682-4e47-897d-47fdb4c539fb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 79.40625); (2.91666666666667 : 79.40625 : JumpStart); (3.12566313940927 : 79.40625 : JumpEnd); (5.57349258974356 : 79.40625 : JumpStart); (5.89583333333333 : 79.40625 : JumpEnd); (8.57291666666667 : 79.40625 : JumpStart); (8.86458333333333 : 79.40625 : JumpEnd); (9.16666666666667 : 79.40625 : JumpStart); (9.33333333333333 : 79.40625 : JumpEnd); (9.5 : 79.40625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_Career" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="a40e40bf-6b1c-4ac4-ad50-7de7cd2950b7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 80.1452402259115); (2.875 : 80.1452402259115); (2.875 : 83.3766097005208); (2.91666666666667 : 83.3766097005208 : JumpStart); (3.52083333333333 : 83.3766097005208 : JumpEnd); (5.61979166666667 : 83.3766097005208 : JumpStart); (5.89583333333333 : 83.3766097005208 : JumpEnd); (5.91666666666667 : 83.3766097005208 : JumpStart); (6.08333333333333 : 83.3766097005208 : JumpEnd); (6.125 : 83.3766097005208); (6.125 : 82.5978011067708); (8.26822541666667 : 82.5978011067708 : JumpStart); (8.43489208333333 : 82.5978011067708 : JumpEnd); (8.57291666666667 : 82.5978011067708 : JumpStart); (8.86458333333333 : 82.5978011067708 : JumpEnd); (9.125 : 82.5978011067708); (9.125 : 83.0112125651042); (9.16666666666667 : 83.0112125651042 : JumpStart); (9.33333333333333 : 83.0112125651042 : JumpEnd); (9.8546158846154 : 83.0112125651042); (9.8546158846154 : 84.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_Company" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="49b52a80-8c41-4585-9227-612ae5d6dac4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.679691 : 79.375); (2.679691 : 79.125); (3.0164471070361 : 79.125 : JumpStart); (3.18311377370276 : 79.125 : JumpEnd); (5.61979166666667 : 79.125 : JumpStart); (6.02140925641023 : 79.125 : JumpEnd); (8.57291666666667 : 79.125 : JumpStart); (8.86458333333333 : 79.125 : JumpEnd); (9.04166666666667 : 79.125 : JumpStart); (9.20833333333333 : 79.125 : JumpEnd); (9.25 : 79.125); (9.25 : 84); (9.29166666666667 : 84 : JumpStart); (9.45833333333333 : 84 : JumpEnd); (9.70878205128206 : 84 : JumpStart); (9.93794921794874 : 84 : JumpEnd); (11.6666666666667 : 84 : JumpStart); (11.8333333333333 : 84 : JumpEnd); (13.0416671666667 : 84 : JumpStart); (13.2083338333333 : 84 : JumpEnd); (14.3229166666667 : 84 : JumpStart); (14.4895833333333 : 84 : JumpEnd); (14.875 : 84); (14.875 : 86.2651679570313); (15.25 : 86.2651679570313)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_CompanyContactInfo" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="c97a4228-ae94-4599-98d6-6c7991939001" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.02692307692308 : 82.2997054036458); (2.20638195465621 : 82.3874124100815 : JumpStart); (2.35612204534379 : 82.4605949422777 : JumpEnd); (2.47200795465621 : 82.5172319073711 : JumpStart); (2.62174804534379 : 82.5904144395673 : JumpEnd); (2.80012995465621 : 82.6775950988118 : JumpStart); (3.07487004534379 : 82.8118689291536 : JumpEnd); (3.08137995465621 : 82.8150505196392 : JumpStart); (3.23112004534379 : 82.8882330518355 : JumpEnd); (3.375 : 82.958551557492); (3.375 : 108.846914876302); (3.5 : 108.846914876302)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_ContactInfo" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="ea9a7a5f-0e35-42ee-983f-080ff236cdcd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.617187 : 79.375); (1.617187 : 45.5200512695313); (1.66666666666667 : 45.5200512695313 : JumpStart); (1.83333333333333 : 45.5200512695313 : JumpEnd); (3.5 : 45.5200512695313)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_ContactTitle" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="44ad55f5-2ff8-4e55-90a5-6f424d616df8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.546878 : 82.2997054036458); (2.546878 : 83.75); (3.07291666666667 : 83.75 : JumpStart); (3.23958333333333 : 83.75 : JumpEnd); (3.3125 : 83.75); (3.3125 : 130.673819173177); (3.5 : 130.673819173177)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_CorporatePage" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="07a127b4-ba7e-4842-96d2-81501503b9b0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 81.1727010591947); (2.85236472762214 : 81.5353952745883 : JumpStart); (2.89763527237786 : 81.6957958841735 : JumpEnd); (2.97736472762214 : 81.9782897947744 : JumpStart); (3.02263527237786 : 82.1386904043596 : JumpEnd); (3.15625 : 82.6121082497997); (3.15625 : 101.75); (3.16666666666667 : 101.75 : JumpStart); (3.45833333333333 : 101.75 : JumpEnd); (5.87653746153846 : 101.75); (6.25153746153846 : 102.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_CorporatePageSection" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="ea82aa12-f5f2-4971-9c88-87001697a8c4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.218748 : 82.2997054036458); (1.218748 : 83.9375); (1.66666666666667 : 83.9375 : JumpStart); (1.83333333333333 : 83.9375 : JumpEnd); (1.93229266666667 : 83.9375 : JumpStart); (2.09895933333333 : 83.9375 : JumpEnd); (2.19791866666667 : 83.9375 : JumpStart); (2.36458533333333 : 83.9375 : JumpEnd); (2.9375 : 83.9375); (2.9375 : 122.914216308594); (3.22916666666667 : 122.914216308594 : JumpStart); (3.39583333333333 : 122.914216308594 : JumpEnd); (3.5 : 122.914216308594)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_Director" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="c57a36f4-4a4f-4beb-90b6-632836dfaae4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(0.953122 : 79.375); (0.953122 : 65.7123527018229); (3.5 : 65.7123527018229)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_EmailTemplate" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="cbf11397-2911-4aa1-abd0-648a58306942" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.484374 : 79.375); (1.484374 : 73.1835034179688); (1.53385366666667 : 73.1835034179688 : JumpStart); (2.09895933333333 : 73.1835034179688 : JumpEnd); (2.19791866666667 : 73.1835034179688 : JumpStart); (2.63021133333333 : 73.1835034179688 : JumpEnd); (3.04166666666667 : 73.1835034179688 : JumpStart); (3.20833333333333 : 73.1835034179688 : JumpEnd); (3.5 : 73.1835034179688)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_History" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="daebdd07-0941-4a90-a9bd-be631e895793" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.148439 : 79.375); (2.148439 : 78.7300032552083); (2.19791866666667 : 78.7300032552083 : JumpStart); (2.73177183333333 : 78.7300032552083 : JumpEnd); (3.04166666666667 : 78.7300032552083 : JumpStart); (3.20833333333333 : 78.7300032552083 : JumpEnd); (4.12589743589744 : 78.7300032552083 : JumpStart); (4.2925641025641 : 78.7300032552083 : JumpEnd); (4.72128205128205 : 78.7300032552083 : JumpStart); (4.88794871794871 : 78.7300032552083 : JumpEnd); (5.61979166666667 : 78.7300032552083 : JumpStart); (5.89583333333333 : 78.7300032552083 : JumpEnd); (5.91666666666667 : 78.7300032552083 : JumpStart); (6.08333333333333 : 78.7300032552083 : JumpEnd); (6.5 : 78.7300032552083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_LanguageResourceTranslation" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="5a4b1834-06dc-4c3f-a426-2eaa5bfca5a7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.703125 : 91.875); (5.703125 : 78.6110025455729); (5.72916666666667 : 78.6110025455729 : JumpStart); (5.89583333333333 : 78.6110025455729 : JumpEnd); (5.91666666666667 : 78.6110025455729 : JumpStart); (6.08333333333333 : 78.6110025455729 : JumpEnd); (6.5 : 78.6110025455729)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/LanguageResource/LanguageResource_LanguageResourceTranslation" />
+      <nodes>
+        <classShapeMoniker Id="a934c5c7-5932-40b7-932a-90f33a7fdb22" />
+        <classShapeMoniker Id="5a4b1834-06dc-4c3f-a426-2eaa5bfca5a7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.44538461538461 : 82.2997054036458); (1.67048779270102 : 82.3703260082941 : JumpStart); (1.82951220729898 : 82.420216020717 : JumpEnd); (1.93611379270102 : 82.453659655353 : JumpStart); (2.09513820729898 : 82.5035496677758 : JumpEnd); (2.20173979270102 : 82.5369933024118 : JumpStart); (2.36076420729898 : 82.5868833148347 : JumpEnd); (2.46736579270102 : 82.6203269494706 : JumpStart); (2.62639020729898 : 82.6702169618935 : JumpEnd); (2.79548779270102 : 82.7232671847647 : JumpStart); (3.23576220729898 : 82.8613924913053 : JumpEnd); (3.25 : 82.8658592497997); (3.25 : 115.846914876302); (3.5 : 115.846914876302)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_Management" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="57111ffd-27da-4ab8-b419-b4e244b6aa59" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.20923076923077 : 118.943829752604); (4.20923076923077 : 119.193829752604); (4.80461538461539 : 119.193829752604); (4.80461538461539 : 118.943829752604)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Management/Management_Management" />
+      <nodes>
+        <classShapeMoniker Id="57111ffd-27da-4ab8-b419-b4e244b6aa59" />
+        <classShapeMoniker Id="57111ffd-27da-4ab8-b419-b4e244b6aa59" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 80.8373527018229); (2.98332198568698 : 79.6951232159094 : JumpStart); (3.01667801431302 : 79.5318285340239 : JumpEnd); (3.125 : 79.0015374615385); (3.125 : 71.1939111328125); (5.63541666666667 : 71.1939111328125 : JumpStart); (5.89583333333333 : 71.1939111328125 : JumpEnd); (5.91666666666667 : 71.1939111328125 : JumpStart); (6.08333333333333 : 71.1939111328125 : JumpEnd); (8.87653746153846 : 71.1939111328125); (9.09732443490112 : 70.9731241594498 : JumpStart); (9.21517556509888 : 70.8552730292521 : JumpEnd); (9.25153746153846 : 70.8189111328125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_New" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="1f94ceef-7305-4be7-81c3-491ca8a40562" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.80692307692308 : 67.125); (9.80692307692308 : 67); (10.25 : 67); (10.25 : 67.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/New/New_New" />
+      <nodes>
+        <classShapeMoniker Id="1f94ceef-7305-4be7-81c3-491ca8a40562" />
+        <classShapeMoniker Id="1f94ceef-7305-4be7-81c3-491ca8a40562" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.25 : 68.9239005533854); (12 : 68.9239005533854)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/New/New_NewMedia" />
+      <nodes>
+        <classShapeMoniker Id="1f94ceef-7305-4be7-81c3-491ca8a40562" />
+        <classShapeMoniker Id="c4006e6b-abb1-4de7-acd3-4d3a4b13e3b4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 48.8950512695313); (5.72916666666667 : 48.8950512695313 : JumpStart); (5.89583333333333 : 48.8950512695313 : JumpEnd); (6 : 48.8950512695313); (6 : 51.2804996744792); (6.22916416666667 : 51.2804996744792 : JumpStart); (6.42708333333333 : 51.2804996744792 : JumpEnd); (9 : 51.2804996744792); (9 : 66.3473128255208); (9.07291666666667 : 66.3473128255208 : JumpStart); (9.23958333333333 : 66.3473128255208 : JumpEnd); (10.2534615384615 : 66.3473128255208); (10.2534615384615 : 67.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/NewsCategory/NewsCategory_New" />
+      <nodes>
+        <classShapeMoniker Id="e5944b03-7bfd-477e-b91f-d06ce40a258d" />
+        <classShapeMoniker Id="1f94ceef-7305-4be7-81c3-491ca8a40562" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.414065 : 79.375); (2.414065 : 48.8950512695313); (3.5 : 48.8950512695313)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_NewsCategory" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="e5944b03-7bfd-477e-b91f-d06ce40a258d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.20923076923077 : 50.1651025390625); (4.20923076923077 : 50.4151025390625); (4.80461538461539 : 50.4151025390625); (4.80461538461539 : 50.1651025390625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/NewsCategory/NewsCategory_NewsCategory" />
+      <nodes>
+        <classShapeMoniker Id="e5944b03-7bfd-477e-b91f-d06ce40a258d" />
+        <classShapeMoniker Id="e5944b03-7bfd-477e-b91f-d06ce40a258d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.281252 : 82.2997054036458); (2.281252 : 84.0625); (2.8125 : 84.0625); (2.8125 : 149.41417561849); (3.5 : 149.41417561849)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_NewsCommunication" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="0bf514be-93a5-456e-819b-4c35f5c8cd0a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.20923076923077 : 153.953351236979); (4.20923076923077 : 154.203351236979); (4.80461538461539 : 154.203351236979); (4.80461538461539 : 153.953351236979)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/NewsCommunication/NewsCommunication_NewsCommunication" />
+      <nodes>
+        <classShapeMoniker Id="0bf514be-93a5-456e-819b-4c35f5c8cd0a" />
+        <classShapeMoniker Id="0bf514be-93a5-456e-819b-4c35f5c8cd0a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 149.404654134115); (6.25 : 149.404654134115)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/NewsCommunication/NewsCommunication_NewsCommunicationMedia" />
+      <nodes>
+        <classShapeMoniker Id="0bf514be-93a5-456e-819b-4c35f5c8cd0a" />
+        <classShapeMoniker Id="1b644752-8d2b-4509-9580-08ee708154b5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.75 : 13.3477197265625); (4.75 : 15.9815991210938); (6.5 : 15.9815991210938)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Newsletter/Newsletter_NewsletterImageSection" />
+      <nodes>
+        <classShapeMoniker Id="75ef1ad8-1a08-41dd-b66c-e10c6896f780" />
+        <classShapeMoniker Id="4af1e0ce-6c24-47eb-ad41-f92a760bdd00" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 8.5); (6.125 : 8.125); (6.125 : 6.40549967447917); (6.5 : 6.03049967447917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Newsletter/Newsletter_NewsletterInterestSection" />
+      <nodes>
+        <classShapeMoniker Id="75ef1ad8-1a08-41dd-b66c-e10c6896f780" />
+        <classShapeMoniker Id="ba9c61ee-112e-4ed8-99c1-18305eaa49a2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 35.75); (4.5 : 21.9527091471354); (6.5 : 21.9527091471354)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Country/Country_NewsletterUser" />
+      <nodes>
+        <classShapeMoniker Id="9daa6c9e-d4b6-49a5-9c31-2b21a87e8edc" />
+        <classShapeMoniker Id="3e825388-98d5-476b-9b9b-4bc221e60187" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 5.3698853213141); (6.5 : 5.3698853213141)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/NewsletterUserCategory/NewsletterUserCategory_NewsletterInterestSection" />
+      <nodes>
+        <classShapeMoniker Id="30a898bd-2cca-4cba-9b4f-9207d04ea1ac" />
+        <classShapeMoniker Id="ba9c61ee-112e-4ed8-99c1-18305eaa49a2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 5.96896021294071); (6.3125 : 6.53146021294071); (6.3125 : 21.9527091471354); (6.5 : 21.9527091471354)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/NewsletterUserCategory/NewsletterUserCategory_NewsletterUser" />
+      <nodes>
+        <classShapeMoniker Id="30a898bd-2cca-4cba-9b4f-9207d04ea1ac" />
+        <classShapeMoniker Id="3e825388-98d5-476b-9b9b-4bc221e60187" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.882813 : 79.375); (1.882813 : 52.1450512695313); (3.5 : 52.1450512695313)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_PartnerCategory" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="f379ca3e-eadb-41b1-9d4f-7fb87be895c6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.20923076923077 : 53.4151025390625); (4.20923076923077 : 53.6651025390625); (4.80461538461539 : 53.6651025390625); (4.80461538461539 : 53.4151025390625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/PartnerCategory/PartnerCategory_PartnerCategory" />
+      <nodes>
+        <classShapeMoniker Id="f379ca3e-eadb-41b1-9d4f-7fb87be895c6" />
+        <classShapeMoniker Id="f379ca3e-eadb-41b1-9d4f-7fb87be895c6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.546878 : 79.375); (2.546878 : 67.5873527018229); (5.72916666666667 : 67.5873527018229 : JumpStart); (5.89583333333333 : 67.5873527018229 : JumpEnd); (5.91666666666667 : 67.5873527018229 : JumpStart); (6.08333333333333 : 67.5873527018229 : JumpEnd); (6.25 : 67.5873527018229)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_Partner" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="b198888f-d47c-49d6-8d38-5017a1ae7be8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 53.413563077524); (5.875 : 53.788563077524); (5.875 : 66.1999243509115); (6.25 : 66.1999243509115)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/PartnerCategory/PartnerCategory_Partner" />
+      <nodes>
+        <classShapeMoniker Id="f379ca3e-eadb-41b1-9d4f-7fb87be895c6" />
+        <classShapeMoniker Id="b198888f-d47c-49d6-8d38-5017a1ae7be8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.95923076923077 : 68.1843082682292); (6.95923076923077 : 68.4343082682292); (7.55461538461539 : 68.4343082682292); (7.55461538461539 : 68.1843082682292)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Partner/Partner_Partner" />
+      <nodes>
+        <classShapeMoniker Id="b198888f-d47c-49d6-8d38-5017a1ae7be8" />
+        <classShapeMoniker Id="b198888f-d47c-49d6-8d38-5017a1ae7be8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14 : 80.6747054036458); (14 : 83.875); (13.2083338333333 : 83.875 : JumpStart); (13.0416671666667 : 83.875 : JumpEnd); (11.75 : 83.875); (11.75 : 108.684308268229); (8.625 : 108.684308268229); (8.625 : 106.856477050781); (8.25 : 106.856477050781)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Portfolio/Portfolio_CorporatePageSection" />
+      <nodes>
+        <classShapeMoniker Id="d29810ff-c73e-4e2e-a535-85a921f78c1e" />
+        <classShapeMoniker Id="ea82aa12-f5f2-4971-9c88-87001697a8c4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.7109435 : 79.375); (2.7109435 : 79.2123527018229); (2.99860366480685 : 79.2123527018229 : JumpStart); (3.16527033147352 : 79.2123527018229 : JumpEnd); (5.61979166666667 : 79.2123527018229 : JumpStart); (5.93405655458733 : 79.2123527018229 : JumpEnd); (8.57291666666667 : 79.2123527018229 : JumpStart); (8.86458333333333 : 79.2123527018229 : JumpEnd); (9.04166666666667 : 79.2123527018229 : JumpStart); (9.33333333333333 : 79.2123527018229 : JumpEnd); (9.375 : 79.2123527018229); (9.375 : 78.625); (12.625 : 78.625); (12.625 : 79.2123527018229); (13 : 79.2123527018229)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_Portfolio" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="d29810ff-c73e-4e2e-a535-85a921f78c1e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.7092307692308 : 77.75); (13.7092307692308 : 77.5); (14.3046153846154 : 77.5); (14.3046153846154 : 77.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Portfolio/Portfolio_Portfolio" />
+      <nodes>
+        <classShapeMoniker Id="d29810ff-c73e-4e2e-a535-85a921f78c1e" />
+        <classShapeMoniker Id="d29810ff-c73e-4e2e-a535-85a921f78c1e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 43.538563077524); (5.75357443490112 : 43.7921375124251 : JumpStart); (5.87142556509888 : 43.9099886426229 : JumpEnd); (6.125 : 44.163563077524); (6.125 : 60.5); (6.25 : 60.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Tag/Tag_PostTag" />
+      <nodes>
+        <classShapeMoniker Id="0003e63f-caf8-41ff-8bab-f82398b4254e" />
+        <classShapeMoniker Id="baa8a78f-3ee7-407b-9de3-6fd5f8ea98db" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.218748 : 79.375); (1.218748 : 55.3950512695313); (1.53385366666667 : 55.3950512695313 : JumpStart); (1.96614633333333 : 55.3950512695313 : JumpEnd); (2.33073166666667 : 55.3950512695313 : JumpStart); (2.49739833333333 : 55.3950512695313 : JumpEnd); (3.26041666666667 : 55.3950512695313 : JumpStart); (3.42708333333333 : 55.3950512695313 : JumpEnd); (3.5 : 55.3950512695313)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_PowerCapacity" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="b0406dac-3d28-42f1-9293-49b99f840d91" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.20923076923077 : 56.6651025390625); (4.20923076923077 : 56.9151025390625); (4.80461538461539 : 56.9151025390625); (4.80461538461539 : 56.6651025390625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/PowerCapacity/PowerCapacity_PowerCapacity" />
+      <nodes>
+        <classShapeMoniker Id="b0406dac-3d28-42f1-9293-49b99f840d91" />
+        <classShapeMoniker Id="b0406dac-3d28-42f1-9293-49b99f840d91" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.281252 : 79.375); (2.281252 : 58.7700512695313); (3.5 : 58.7700512695313)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_ProjectCategory" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="7c002a1a-82db-45d4-86e7-72b0ee3275d0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.20923076923077 : 60.0401025390625); (4.20923076923077 : 60.2901025390625); (4.80461538461539 : 60.2901025390625); (4.80461538461539 : 60.0401025390625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/ProjectCategory/ProjectCategory_ProjectCategory" />
+      <nodes>
+        <classShapeMoniker Id="7c002a1a-82db-45d4-86e7-72b0ee3275d0" />
+        <classShapeMoniker Id="7c002a1a-82db-45d4-86e7-72b0ee3275d0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 69.9835770670573); (5.72916666666667 : 69.9835770670573 : JumpStart); (5.89583333333333 : 69.9835770670573 : JumpEnd); (5.91666666666667 : 69.9835770670573 : JumpStart); (6.08333333333333 : 69.9835770670573 : JumpEnd); (9 : 69.9835770670573); (9 : 66.875); (9.07291666666667 : 66.875 : JumpStart); (9.23958333333333 : 66.875 : JumpEnd); (9.60461588461538 : 66.875); (9.60461588461538 : 66.2223128255208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Region/Region_AspNetUser" />
+      <nodes>
+        <classShapeMoniker Id="bccf2c91-b5cb-49a3-bab6-01de1a4570a3" />
+        <classShapeMoniker Id="b310bfa9-5883-421f-9846-9e4bf74329bb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 68.9194812011719); (5.72916666666667 : 68.9194812011719 : JumpStart); (5.89583333333333 : 68.9194812011719 : JumpEnd); (5.91666666666667 : 68.9194812011719 : JumpStart); (6.08333333333333 : 68.9194812011719 : JumpEnd); (8.91666666666667 : 68.9194812011719 : JumpStart); (9.08333333333333 : 68.9194812011719 : JumpEnd); (9.125 : 68.9194812011719); (9.125 : 66.625); (9.52128255128205 : 66.625 : JumpStart); (9.68794921794871 : 66.625 : JumpEnd); (10.1701282051282 : 66.625 : JumpStart); (10.3367948717948 : 66.625 : JumpEnd); (10.9023071923077 : 66.625); (10.9023071923077 : 66.2223128255208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Region/Region_AspNetUser1" />
+      <nodes>
+        <classShapeMoniker Id="bccf2c91-b5cb-49a3-bab6-01de1a4570a3" />
+        <classShapeMoniker Id="b310bfa9-5883-421f-9846-9e4bf74329bb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.015626 : 79.375); (2.015626 : 69.3373527018229); (2.19791866666667 : 69.3373527018229 : JumpStart); (2.36458533333333 : 69.3373527018229 : JumpEnd); (2.46354466666667 : 69.3373527018229 : JumpStart); (2.63021133333333 : 69.3373527018229 : JumpEnd); (3.5 : 69.3373527018229)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_Region" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="bccf2c91-b5cb-49a3-bab6-01de1a4570a3" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.20923076923077 : 70.7997054036458); (4.20923076923077 : 71.0497054036458); (4.80461538461539 : 71.0497054036458); (4.80461538461539 : 70.7997054036458)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Region/Region_Region" />
+      <nodes>
+        <classShapeMoniker Id="bccf2c91-b5cb-49a3-bab6-01de1a4570a3" />
+        <classShapeMoniker Id="bccf2c91-b5cb-49a3-bab6-01de1a4570a3" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.33384615384615 : 67.875); (4.33384615384615 : 67.75); (4.92923076923077 : 67.75); (4.92923076923077 : 67.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Region/Region_Region1" />
+      <nodes>
+        <classShapeMoniker Id="bccf2c91-b5cb-49a3-bab6-01de1a4570a3" />
+        <classShapeMoniker Id="bccf2c91-b5cb-49a3-bab6-01de1a4570a3" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 86.3181062825521); (11.6666666666667 : 86.3181062825521 : JumpStart); (11.8333333333333 : 86.3181062825521 : JumpEnd); (12.25 : 86.3181062825521)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Company/Company_Report" />
+      <nodes>
+        <classShapeMoniker Id="49b52a80-8c41-4585-9227-612ae5d6dac4" />
+        <classShapeMoniker Id="f6204a56-4c9a-4b36-a890-b63c4f711bda" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 81.6232196777344); (2.79166666666667 : 81.6232196777344 : JumpStart); (2.96048511496701 : 81.6232196777344 : JumpEnd); (3 : 81.6232196777344); (3 : 83.5016097005208); (3.07291666666667 : 83.5016097005208 : JumpStart); (3.52083333333333 : 83.5016097005208 : JumpEnd); (5.61979166666667 : 83.5016097005208 : JumpStart); (5.89583333333333 : 83.5016097005208 : JumpEnd); (6 : 83.5016097005208); (6 : 82.3478011067708); (8.26822541666667 : 82.3478011067708 : JumpStart); (8.43489208333333 : 82.3478011067708 : JumpEnd); (8.57291666666667 : 82.3478011067708 : JumpStart); (8.86458333333333 : 82.3478011067708 : JumpEnd); (9.16666666666667 : 82.3478011067708 : JumpStart); (9.33333333333333 : 82.3478011067708 : JumpEnd); (9.375 : 82.3478011067708); (9.375 : 82.8862125651042); (9.70878205128206 : 82.8862125651042 : JumpStart); (9.87544871794872 : 82.8862125651042 : JumpEnd); (10.1258974358975 : 82.8862125651042 : JumpStart); (10.2925641025641 : 82.8862125651042 : JumpEnd); (10.7212820512821 : 82.8862125651042 : JumpStart); (10.8879487179487 : 82.8862125651042 : JumpEnd); (13.1250005 : 82.8862125651042); (13.1250005 : 84.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_Report" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="f6204a56-4c9a-4b36-a890-b63c4f711bda" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12.9592307692308 : 88.2612125651042); (12.9592307692308 : 88.3862125651042); (13.5546153846154 : 88.3862125651042); (13.5546153846154 : 88.2612125651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Report/Report_Report" />
+      <nodes>
+        <classShapeMoniker Id="f6204a56-4c9a-4b36-a890-b63c4f711bda" />
+        <classShapeMoniker Id="f6204a56-4c9a-4b36-a890-b63c4f711bda" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 11.1450512695312); (9.07291666666667 : 11.1450512695312 : JumpStart); (9.23958333333333 : 11.1450512695312 : JumpEnd); (9.5 : 11.1450512695312)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Setting/Setting_SettingsFile" />
+      <nodes>
+        <classShapeMoniker Id="c6d4ea13-d0b3-457d-a90a-a703b9771af4" />
+        <classShapeMoniker Id="7adc2982-3535-4b96-b8eb-8c992eebe67d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.351561 : 79.375); (1.351561 : 76.9335034179688); (1.40104066666667 : 76.9335034179688 : JumpStart); (2.09895933333333 : 76.9335034179688 : JumpEnd); (2.19791866666667 : 76.9335034179688 : JumpStart); (2.73177183333333 : 76.9335034179688 : JumpEnd); (3.04166666666667 : 76.9335034179688 : JumpStart); (3.20833333333333 : 76.9335034179688 : JumpEnd); (3.5 : 76.9335034179688)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_SocialMedia" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="c7eb42cd-07f2-4491-bb3c-327c103f36ff" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.20923076923077 : 78.4920068359375); (4.20923076923077 : 78.8670068359375); (4.80461538461538 : 78.8670068359375); (4.80461538461538 : 78.4920068359375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/SocialMedia/SocialMedia_SocialMedia" />
+      <nodes>
+        <classShapeMoniker Id="c7eb42cd-07f2-4491-bb3c-327c103f36ff" />
+        <classShapeMoniker Id="c7eb42cd-07f2-4491-bb3c-327c103f36ff" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="658d3b84-1c07-4f48-a592-f09c6f58c4e7" absoluteBounds="16, 73.375, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/dblinqDataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a13fc8e2-a50f-4222-ac6e-32ccd2be52c9" absoluteBounds="16.015, 73.835, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(16 : 74.2364005533854); (14 : 74.2364005533854)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Product/Product_ProductMedia" />
+      <nodes>
+        <classShapeMoniker Id="658d3b84-1c07-4f48-a592-f09c6f58c4e7" />
+        <classShapeMoniker Id="f450595e-1f1e-4429-86ca-4a8d74e21aba" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 80.8842299518229); (2.79166666666667 : 80.8842299518229 : JumpStart); (2.95833333333333 : 80.8842299518229 : JumpEnd); (3 : 80.8842299518229); (3 : 79.3125); (5.61979166666667 : 79.3125 : JumpStart); (5.89583333333333 : 79.3125 : JumpEnd); (8.57291666666667 : 79.3125 : JumpStart); (8.86458333333333 : 79.3125 : JumpEnd); (9.125 : 79.3125); (9.125 : 77.5737125651042); (15.6666666666667 : 77.5737125651042 : JumpStart); (15.8333333333333 : 77.5737125651042 : JumpEnd); (16.3854146666667 : 77.5737125651042 : JumpStart); (16.5520813333333 : 77.5737125651042 : JumpEnd); (16.9166666666667 : 77.5737125651042 : JumpStart); (17.0833333333333 : 77.5737125651042 : JumpEnd); (17.32812475 : 77.5737125651042); (17.32812475 : 77.2612125651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_Product" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="658d3b84-1c07-4f48-a592-f09c6f58c4e7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(15 : 79.2123527018229); (15.6666666666667 : 79.2123527018229 : JumpStart); (15.8333333333333 : 79.2123527018229 : JumpEnd); (16.468748 : 79.2123527018229); (16.468748 : 77.2612125651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Portfolio/Portfolio_Product" />
+      <nodes>
+        <classShapeMoniker Id="d29810ff-c73e-4e2e-a535-85a921f78c1e" />
+        <classShapeMoniker Id="658d3b84-1c07-4f48-a592-f09c6f58c4e7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 55.3950512695313); (5.75 : 55.3950512695313); (5.75 : 56.0112125651042); (5.79166666666667 : 56.0112125651042 : JumpStart); (5.95833333333333 : 56.0112125651042 : JumpEnd); (8.75 : 56.0112125651042); (8.75 : 66.4723128255208); (17.1249995 : 66.4723128255208); (17.1249995 : 73.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/PowerCapacity/PowerCapacity_Product" />
+      <nodes>
+        <classShapeMoniker Id="b0406dac-3d28-42f1-9293-49b99f840d91" />
+        <classShapeMoniker Id="658d3b84-1c07-4f48-a592-f09c6f58c4e7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(18 : 74.7226411758814); (18.25 : 74.7226411758814); (18.25 : 75.9419268704928); (18 : 75.9419268704928)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Product/Product_Product" />
+      <nodes>
+        <classShapeMoniker Id="658d3b84-1c07-4f48-a592-f09c6f58c4e7" />
+        <classShapeMoniker Id="658d3b84-1c07-4f48-a592-f09c6f58c4e7" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9612d198-f99c-4685-8d36-ec02954757a6" absoluteBounds="25.25, 6, 2, 4.2708154296875">
+      <DataClassMoniker Name="/dblinqDataContext/CustomCareerApp" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0676b2df-feda-4a02-a58e-83e0a7aff193" absoluteBounds="25.265, 6.46, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.5 : 80.9591510527344); (13.9166666666667 : 80.9591510527344 : JumpStart); (14.0833333333333 : 80.9591510527344 : JumpEnd); (14.3229166666667 : 80.9591510527344 : JumpStart); (14.4895833333333 : 80.9591510527344 : JumpEnd); (14.5104166666667 : 80.9591510527344 : JumpStart); (14.6770833333333 : 80.9591510527344 : JumpEnd); (15.6666666666667 : 80.9591510527344 : JumpStart); (15.8333333333333 : 80.9591510527344 : JumpEnd); (16.9166666666667 : 80.9591510527344 : JumpStart); (17.0833333333333 : 80.9591510527344 : JumpEnd); (17.6119815416667 : 80.9591510527344 : JumpStart); (17.7786482083333 : 80.9591510527344 : JumpEnd); (26.51562625 : 80.9591510527344); (26.51562625 : 10.2708154296875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Career/Career_CustomCareerApp" />
+      <nodes>
+        <classShapeMoniker Id="a40e40bf-6b1c-4ac4-ad50-7de7cd2950b7" />
+        <classShapeMoniker Id="9612d198-f99c-4685-8d36-ec02954757a6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 44.38280875); (5.72916666666667 : 44.38280875 : JumpStart); (5.89583333333333 : 44.38280875 : JumpEnd); (6.04166666666667 : 44.38280875 : JumpStart); (6.20833333333333 : 44.38280875 : JumpEnd); (6.22916416666667 : 44.38280875 : JumpStart); (6.39583083333333 : 44.38280875 : JumpEnd); (9.07291666666667 : 44.38280875 : JumpStart); (9.23958333333333 : 44.38280875 : JumpEnd); (9.36978791666667 : 44.38280875 : JumpStart); (9.53645458333333 : 44.38280875 : JumpEnd); (9.63541416666667 : 44.38280875 : JumpStart); (9.80208083333333 : 44.38280875 : JumpEnd); (15.9166666666667 : 44.38280875 : JumpStart); (16.0833333333333 : 44.38280875 : JumpEnd); (17.0416641666667 : 44.38280875 : JumpStart); (17.2083308333333 : 44.38280875 : JumpEnd); (25.7187475 : 44.38280875); (25.7187475 : 10.2708154296875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/ContactTitle/ContactTitle_CustomCareerApp" />
+      <nodes>
+        <classShapeMoniker Id="44ad55f5-2ff8-4e55-90a5-6f424d616df8" />
+        <classShapeMoniker Id="9612d198-f99c-4685-8d36-ec02954757a6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(27.25 : 8.37203798373653); (27.5 : 8.37203798373653); (27.5 : 8.13540771484375); (27.25 : 8.13540771484375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/CustomCareerApp/CustomCareerApp_CustomCareerApp" />
+      <nodes>
+        <classShapeMoniker Id="9612d198-f99c-4685-8d36-ec02954757a6" />
+        <classShapeMoniker Id="9612d198-f99c-4685-8d36-ec02954757a6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(25.9592307692308 : 6); (25.9592307692308 : 5.75); (26.5546153846154 : 5.75); (26.5546153846154 : 6)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/CustomCareerApp/CustomCareerApp_CustomCareerApp1" />
+      <nodes>
+        <classShapeMoniker Id="9612d198-f99c-4685-8d36-ec02954757a6" />
+        <classShapeMoniker Id="9612d198-f99c-4685-8d36-ec02954757a6" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8613624c-88ff-4f3b-91dd-d0be786437e3" absoluteBounds="3.25, 60.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/dblinqDataContext/InquiryType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="75064c5f-4a1e-4fed-9d23-031db232305a" absoluteBounds="3.2649999999999997, 61.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.34375 : 60.75); (3.34375 : 53.8638012695313); (5.72916666666667 : 53.8638012695313 : JumpStart); (5.89583333333333 : 53.8638012695313 : JumpEnd); (6.25 : 53.8638012695313)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/InquiryType/InquiryType_Inquiry" />
+      <nodes>
+        <classShapeMoniker Id="8613624c-88ff-4f3b-91dd-d0be786437e3" />
+        <classShapeMoniker Id="45feffa2-8db1-48b6-a746-669cdbd1bd09" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.95923076923077 : 63.4824039713542); (3.95923076923077 : 63.7324039713542); (4.55461538461539 : 63.7324039713542); (4.55461538461539 : 63.4824039713542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/InquiryType/InquiryType_InquiryType" />
+      <nodes>
+        <classShapeMoniker Id="8613624c-88ff-4f3b-91dd-d0be786437e3" />
+        <classShapeMoniker Id="8613624c-88ff-4f3b-91dd-d0be786437e3" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.085935 : 79.375); (1.085935 : 62.1162019856771); (1.66666666666667 : 62.1162019856771 : JumpStart); (1.83333333333333 : 62.1162019856771 : JumpEnd); (2.19791866666667 : 62.1162019856771 : JumpStart); (2.36458533333333 : 62.1162019856771 : JumpEnd); (3.25 : 62.1162019856771)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_InquiryType" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="8613624c-88ff-4f3b-91dd-d0be786437e3" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="b94999dc-569a-4df6-8117-7aca14dbd043" absoluteBounds="18.5, 5.5, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/dblinqDataContext/HistoryItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="24ab966a-2b6c-4d98-99fa-8a1ec49e26f8" absoluteBounds="18.515, 5.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(19.0569230769231 : 8.42470540364583); (19.0569230769231 : 8.67470540364583); (19.5 : 8.67470540364583); (19.5 : 8.42470540364583)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/HistoryItem/HistoryItem_HistoryItem" />
+      <nodes>
+        <classShapeMoniker Id="b94999dc-569a-4df6-8117-7aca14dbd043" />
+        <classShapeMoniker Id="b94999dc-569a-4df6-8117-7aca14dbd043" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.2092307692308 : 5.5); (19.2092307692308 : 5.25); (19.8046153846154 : 5.25); (19.8046153846154 : 5.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/HistoryItem/HistoryItem_HistoryItem1" />
+      <nodes>
+        <classShapeMoniker Id="b94999dc-569a-4df6-8117-7aca14dbd043" />
+        <classShapeMoniker Id="b94999dc-569a-4df6-8117-7aca14dbd043" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(0.820309 : 79.375); (0.820309 : 16.9631982421875); (3 : 16.9631982421875); (3 : 7.5401025390625); (6.04166666666667 : 7.5401025390625 : JumpStart); (6.20833333333333 : 7.5401025390625 : JumpEnd); (6.22916666666667 : 7.5401025390625 : JumpStart); (6.39583333333333 : 7.5401025390625 : JumpEnd); (9.07291666666667 : 7.5401025390625 : JumpStart); (9.23958333333333 : 7.5401025390625 : JumpEnd); (12.5 : 7.5401025390625); (12.5 : 8.1170068359375); (15.9166666666667 : 8.1170068359375 : JumpStart); (16.0833333333333 : 8.1170068359375 : JumpEnd); (18.125 : 8.1170068359375); (18.125 : 6.96235270182292); (18.5 : 6.96235270182292)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_HistoryItem" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="b94999dc-569a-4df6-8117-7aca14dbd043" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="f03005f2-5097-4df1-8ec1-41b283904346" absoluteBounds="0.75, 84.5, 2, 2.7324039713541595">
+      <DataClassMoniker Name="/dblinqDataContext/IconList" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4cb86629-63cb-4650-9a48-5f0b09bfd63c" absoluteBounds="0.765, 84.96, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c1ce3679-6de8-45d2-9d70-4be62b90b7f4" absoluteBounds="6.875, 0.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/dblinqDataContext/ProjectMedia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="149d86da-c817-41aa-890d-889f467e3a4b" absoluteBounds="6.8900000000000006, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="74fbbe2d-d032-44a1-ae25-d266a1cf041e" absoluteBounds="6.25, 82.875, 2, 3.3093082682291595">
+      <DataClassMoniker Name="/dblinqDataContext/DivisionSubCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8540e045-919d-43a9-8201-4ac6ea1ffca2" absoluteBounds="6.265, 83.335, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.25 : 83.3806062825521); (8.26822541666667 : 83.3806062825521 : JumpStart); (8.43489208333333 : 83.3806062825521 : JumpEnd); (8.57291666666667 : 83.3806062825521 : JumpStart); (8.86458333333333 : 83.3806062825521 : JumpEnd); (9.16666666666667 : 83.3806062825521 : JumpStart); (9.33333333333333 : 83.3806062825521 : JumpEnd); (9.70878205128206 : 83.3806062825521 : JumpStart); (9.93794921794874 : 83.3806062825521 : JumpEnd); (13.0416671666667 : 83.3806062825521 : JumpStart); (13.2083338333333 : 83.3806062825521 : JumpEnd); (13.9166666666667 : 83.3806062825521 : JumpStart); (14.0833333333333 : 83.3806062825521 : JumpEnd); (14.3229166666667 : 83.3806062825521 : JumpStart); (14.4895833333333 : 83.3806062825521 : JumpEnd); (14.59375 : 83.3806062825521); (14.59375 : 80.6747054036458)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/DivisionSubCategory/DivisionSubCategory_Portfolio" />
+      <nodes>
+        <classShapeMoniker Id="74fbbe2d-d032-44a1-ae25-d266a1cf041e" />
+        <classShapeMoniker Id="d29810ff-c73e-4e2e-a535-85a921f78c1e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 85.1546536341146); (8.26822541666667 : 85.1546536341146 : JumpStart); (8.43489208333333 : 85.1546536341146 : JumpEnd); (8.57291666666667 : 85.1546536341146 : JumpStart); (8.73958333333333 : 85.1546536341146 : JumpEnd); (8.91666666666667 : 85.1546536341146 : JumpStart); (9.08333333333333 : 85.1546536341146 : JumpEnd); (9.375 : 85.1546536341146); (9.375 : 83.625); (9.70878205128206 : 83.625 : JumpStart); (9.93794921794874 : 83.625 : JumpEnd); (13.0416671666667 : 83.625 : JumpStart); (13.2083338333333 : 83.625 : JumpEnd); (13.9166666666667 : 83.625 : JumpStart); (14.0833333333333 : 83.625 : JumpEnd); (14.3229166666667 : 83.625 : JumpStart); (14.4895833333333 : 83.625 : JumpEnd); (14.9166666666667 : 83.625 : JumpStart); (15.0833333333333 : 83.625 : JumpEnd); (15.125 : 83.625); (15.125 : 81.625); (17 : 81.625); (17 : 77.2612125651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/DivisionSubCategory/DivisionSubCategory_Product" />
+      <nodes>
+        <classShapeMoniker Id="74fbbe2d-d032-44a1-ae25-d266a1cf041e" />
+        <classShapeMoniker Id="658d3b84-1c07-4f48-a592-f09c6f58c4e7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.95923076923077 : 86.1843082682292); (6.95923076923077 : 86.4343082682292); (7.55461538461538 : 86.4343082682292); (7.55461538461538 : 86.1843082682292)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/DivisionSubCategory/DivisionSubCategory_DivisionSubCategory" />
+      <nodes>
+        <classShapeMoniker Id="74fbbe2d-d032-44a1-ae25-d266a1cf041e" />
+        <classShapeMoniker Id="74fbbe2d-d032-44a1-ae25-d266a1cf041e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 82.2997054036458); (1.75 : 84.375); (2.72916666666667 : 84.375 : JumpStart); (2.89583333333333 : 84.375 : JumpEnd); (3 : 84.375); (3 : 84.842958484375); (3.07291666666667 : 84.842958484375 : JumpStart); (3.58333333333333 : 84.842958484375 : JumpEnd); (5.61979166666667 : 84.842958484375 : JumpStart); (5.89583333333333 : 84.842958484375 : JumpEnd); (6.25 : 84.842958484375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_DivisionSubCategory" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="74fbbe2d-d032-44a1-ae25-d266a1cf041e" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="16c364cc-aa36-4f55-8402-5cc5a946cade" absoluteBounds="7.625, 72.625, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/dblinqDataContext/Project" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2fa1b4ad-c660-4b18-8dfa-7d4337bba9c3" absoluteBounds="7.64, 73.085, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(9.15625 : 72.625); (9.15625 : 1.67390055338542); (8.875 : 1.67390055338542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Project/Project_ProjectMedia" />
+      <nodes>
+        <classShapeMoniker Id="16c364cc-aa36-4f55-8402-5cc5a946cade" />
+        <classShapeMoniker Id="c1ce3679-6de8-45d2-9d70-4be62b90b7f4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 83.875); (8.26822541666667 : 83.875 : JumpStart); (8.43489208333333 : 83.875 : JumpEnd); (8.57291666666667 : 83.875 : JumpStart); (8.73958333333333 : 83.875 : JumpEnd); (8.78125 : 83.875); (8.78125 : 76.7035139973958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/DivisionSubCategory/DivisionSubCategory_Project" />
+      <nodes>
+        <classShapeMoniker Id="74fbbe2d-d032-44a1-ae25-d266a1cf041e" />
+        <classShapeMoniker Id="16c364cc-aa36-4f55-8402-5cc5a946cade" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.6484385 : 79.375); (2.6484385 : 75.1522534179688); (3.04166666666667 : 75.1522534179688 : JumpStart); (3.20833333333333 : 75.1522534179688 : JumpEnd); (5.72916666666667 : 75.1522534179688 : JumpStart); (5.89583333333333 : 75.1522534179688 : JumpEnd); (5.91666666666667 : 75.1522534179688 : JumpStart); (6.08333333333333 : 75.1522534179688 : JumpEnd); (7.625 : 75.1522534179688)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_Project" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="16c364cc-aa36-4f55-8402-5cc5a946cade" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 59.9462553852164); (5.71875 : 60.4150053852164); (5.71875 : 74.6642569986979); (5.72916666666667 : 74.6642569986979 : JumpStart); (5.89583333333333 : 74.6642569986979 : JumpEnd); (5.91666666666667 : 74.6642569986979 : JumpStart); (6.08333333333333 : 74.6642569986979 : JumpEnd); (7.625 : 74.6642569986979)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/ProjectCategory/ProjectCategory_Project" />
+      <nodes>
+        <classShapeMoniker Id="7c002a1a-82db-45d4-86e7-72b0ee3275d0" />
+        <classShapeMoniker Id="16c364cc-aa36-4f55-8402-5cc5a946cade" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.625 : 74.0377278145032); (9.875 : 74.0377278145032); (9.875 : 75.3206209059495); (9.625 : 75.3206209059495)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Project/Project_Project" />
+      <nodes>
+        <classShapeMoniker Id="16c364cc-aa36-4f55-8402-5cc5a946cade" />
+        <classShapeMoniker Id="16c364cc-aa36-4f55-8402-5cc5a946cade" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="e9615b3c-cb86-4926-8feb-d7e1edf6a598" absoluteBounds="9.5, 140.75, 2, 8.5014469401041666">
+      <DataClassMoniker Name="/dblinqDataContext/CorporatePageTemplate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7862b5ec-c469-4d9d-af21-1252696d0ece" absoluteBounds="9.515, 141.21, 1.9700000000000002, 7.941446940104167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.28125 : 140.75); (11.28125 : 110.042380684896); (8.25 : 110.042380684896)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/CorporatePageTemplate/CorporatePageTemplate_CorporatePageSection" />
+      <nodes>
+        <classShapeMoniker Id="e9615b3c-cb86-4926-8feb-d7e1edf6a598" />
+        <classShapeMoniker Id="ea82aa12-f5f2-4971-9c88-87001697a8c4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.2092307692308 : 149.251446940104); (10.2092307692308 : 149.501446940104); (10.8046153846154 : 149.501446940104); (10.8046153846154 : 149.251446940104)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/CorporatePageTemplate/CorporatePageTemplate_CorporatePageTemplate" />
+      <nodes>
+        <classShapeMoniker Id="e9615b3c-cb86-4926-8feb-d7e1edf6a598" />
+        <classShapeMoniker Id="e9615b3c-cb86-4926-8feb-d7e1edf6a598" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="c3e4f7c1-7ad2-4294-9507-d015f57936a2" absoluteBounds="3.5, 79.5, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/dblinqDataContext/BlogPost" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0269cdf5-48be-4518-a54c-9a59530852f2" absoluteBounds="3.5150000000000006, 79.96, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 80.9239005533854); (5.61979166666667 : 80.9239005533854 : JumpStart); (5.89583333333333 : 80.9239005533854 : JumpEnd); (6.25 : 80.9239005533854)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/BlogPost/BlogPost_PostMedia" />
+      <nodes>
+        <classShapeMoniker Id="c3e4f7c1-7ad2-4294-9507-d015f57936a2" />
+        <classShapeMoniker Id="12287d74-3d64-4e4e-95b9-9a566a976bed" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 79.5630759230769); (5.64419943490112 : 79.4188764881758 : JumpStart); (5.87142556509888 : 79.191650357978 : JumpEnd); (6 : 79.0630759230769); (6 : 61.8301525533854); (6.25 : 61.8301525533854)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/BlogPost/BlogPost_PostTag" />
+      <nodes>
+        <classShapeMoniker Id="c3e4f7c1-7ad2-4294-9507-d015f57936a2" />
+        <classShapeMoniker Id="baa8a78f-3ee7-407b-9de3-6fd5f8ea98db" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.20923076923077 : 83.0016097005208); (4.20923076923077 : 83.2516097005208); (4.80461538461538 : 83.2516097005208); (4.80461538461538 : 83.0016097005208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/BlogPost/BlogPost_BlogPost" />
+      <nodes>
+        <classShapeMoniker Id="c3e4f7c1-7ad2-4294-9507-d015f57936a2" />
+        <classShapeMoniker Id="c3e4f7c1-7ad2-4294-9507-d015f57936a2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 80.1296148509115); (2.81123551448311 : 80.1296148509115 : JumpStart); (3.08333333333333 : 80.1296148509115 : JumpEnd); (3.5 : 80.1296148509115)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_BlogPost" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="c3e4f7c1-7ad2-4294-9507-d015f57936a2" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="93d086b9-2266-4b22-bfde-b8d5c5ad678b" absoluteBounds="6.75, 87.375, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/dblinqDataContext/Division" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5184b40c-2d31-44ca-a53f-eb2709b0753e" absoluteBounds="6.765, 87.835, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.75 : 90.1080589292618); (9 : 90.1080589292618); (9 : 84.125); (9.29166666666667 : 84.125 : JumpStart); (9.45833333333333 : 84.125 : JumpEnd); (9.70878205128206 : 84.125 : JumpStart); (9.93794921794874 : 84.125 : JumpEnd); (11.6666666666667 : 84.125 : JumpStart); (11.8333333333333 : 84.125 : JumpEnd); (13.0416671666667 : 84.125 : JumpStart); (13.2083338333333 : 84.125 : JumpEnd); (14.3229166666667 : 84.125 : JumpStart); (14.4895833333333 : 84.125 : JumpEnd); (14.7916666666667 : 84.125 : JumpStart); (14.9583333333333 : 84.125 : JumpEnd); (15 : 84.125); (15 : 81.5); (17 : 81.5); (17 : 77.2612125651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Division/Division_Product" />
+      <nodes>
+        <classShapeMoniker Id="93d086b9-2266-4b22-bfde-b8d5c5ad678b" />
+        <classShapeMoniker Id="658d3b84-1c07-4f48-a592-f09c6f58c4e7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.96480769230769 : 87.375); (7.96480769230769 : 86.1843082682292)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Division/Division_DivisionSubCategory" />
+      <nodes>
+        <classShapeMoniker Id="93d086b9-2266-4b22-bfde-b8d5c5ad678b" />
+        <classShapeMoniker Id="74fbbe2d-d032-44a1-ae25-d266a1cf041e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.65625 : 87.375); (8.65625 : 76.7035139973958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Division/Division_Project" />
+      <nodes>
+        <classShapeMoniker Id="93d086b9-2266-4b22-bfde-b8d5c5ad678b" />
+        <classShapeMoniker Id="16c364cc-aa36-4f55-8402-5cc5a946cade" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.45923076923077 : 91.4535139973958); (7.45923076923077 : 91.7035139973958); (8.05461538461538 : 91.7035139973958); (8.05461538461538 : 91.4535139973958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Division/Division_Division" />
+      <nodes>
+        <classShapeMoniker Id="93d086b9-2266-4b22-bfde-b8d5c5ad678b" />
+        <classShapeMoniker Id="93d086b9-2266-4b22-bfde-b8d5c5ad678b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.75 : 88.7877278145032); (6.5 : 88.7877278145032); (6.5 : 90.0706209059495); (6.75 : 90.0706209059495)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Division/Division_Division1" />
+      <nodes>
+        <classShapeMoniker Id="93d086b9-2266-4b22-bfde-b8d5c5ad678b" />
+        <classShapeMoniker Id="93d086b9-2266-4b22-bfde-b8d5c5ad678b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 86.7796541341146); (2.85416666666667 : 86.7796541341146 : JumpStart); (3.02083333333333 : 86.7796541341146 : JumpEnd); (3.07291666666667 : 86.7796541341146 : JumpStart); (3.58333333333333 : 86.7796541341146 : JumpEnd); (5.61979166666667 : 86.7796541341146 : JumpStart); (5.89583333333333 : 86.7796541341146 : JumpEnd); (6.29166666666667 : 86.7796541341146 : JumpStart); (6.45833333333333 : 86.7796541341146 : JumpEnd); (7.88147435897436 : 86.7796541341146 : JumpStart); (8.04814102564102 : 86.7796541341146 : JumpEnd); (8.26822541666667 : 86.7796541341146 : JumpStart); (8.43489208333333 : 86.7796541341146 : JumpEnd); (8.4531225 : 86.7796541341146); (8.4531225 : 87.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/IconList/IconList_Division" />
+      <nodes>
+        <classShapeMoniker Id="f03005f2-5097-4df1-8ec1-41b283904346" />
+        <classShapeMoniker Id="93d086b9-2266-4b22-bfde-b8d5c5ad678b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 79.4062505); (2.91666666666667 : 79.4062505 : JumpStart); (3.12566303727481 : 79.4062505 : JumpEnd); (5.57349208974356 : 79.4062505 : JumpStart); (5.89583333333333 : 79.4062505 : JumpEnd); (8.35155875 : 79.4062505); (8.35155875 : 87.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_Division" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="93d086b9-2266-4b22-bfde-b8d5c5ad678b" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="31b107f5-ba0d-4e46-b093-339260887fa0" absoluteBounds="14.875, 91.75, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/dblinqDataContext/Brand" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0f6ce373-14d4-45a9-91de-573f1f72b883" absoluteBounds="14.89, 92.21, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(16.875 : 93.6931062825521); (17.695314875 : 93.6931062825521); (17.695314875 : 77.2612125651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dblinqDataContext/Brand/Brand_Product" />
+      <nodes>
+        <classShapeMoniker Id="31b107f5-ba0d-4e46-b093-339260887fa0" />
+        <classShapeMoniker Id="658d3b84-1c07-4f48-a592-f09c6f58c4e7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(15.5842307692308 : 95.6362125651042); (15.5842307692308 : 95.8862125651042); (16.1796153846154 : 95.8862125651042); (16.1796153846154 : 95.6362125651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dblinqDataContext/Brand/Brand_Brand" />
+      <nodes>
+        <classShapeMoniker Id="31b107f5-ba0d-4e46-b093-339260887fa0" />
+        <classShapeMoniker Id="31b107f5-ba0d-4e46-b093-339260887fa0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.07336288461538 : 91.4535139973958); (7.07336288461538 : 94.6072819010417); (11.6666666666667 : 94.6072819010417 : JumpStart); (11.8333333333333 : 94.6072819010417 : JumpEnd); (14.875 : 94.6072819010417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dblinqDataContext/Division/Division_Brand" />
+      <nodes>
+        <classShapeMoniker Id="93d086b9-2266-4b22-bfde-b8d5c5ad678b" />
+        <classShapeMoniker Id="31b107f5-ba0d-4e46-b093-339260887fa0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.375 : 86.1843082682292); (6.375 : 94.0615640690104); (6.99002955128205 : 94.0615640690104 : JumpStart); (7.15669621794872 : 94.0615640690104 : JumpEnd); (11.6666666666667 : 94.0615640690104 : JumpStart); (11.8333333333333 : 94.0615640690104 : JumpEnd); (14.875 : 94.0615640690104)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dblinqDataContext/DivisionSubCategory/DivisionSubCategory_Brand" />
+      <nodes>
+        <classShapeMoniker Id="74fbbe2d-d032-44a1-ae25-d266a1cf041e" />
+        <classShapeMoniker Id="31b107f5-ba0d-4e46-b093-339260887fa0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.015626 : 82.2997054036458); (2.015626 : 84.25); (2.72916666666667 : 84.25 : JumpStart); (3.02083333333333 : 84.25 : JumpEnd); (3.07291666666667 : 84.25 : JumpStart); (3.45833333333333 : 84.25 : JumpEnd); (3.5 : 84.25); (3.5 : 93.8958968098958); (6.29166666666667 : 93.8958968098958 : JumpStart); (6.45833333333333 : 93.8958968098958 : JumpEnd); (6.99002955128205 : 93.8958968098958 : JumpStart); (7.15669621794872 : 93.8958968098958 : JumpEnd); (11.6666666666667 : 93.8958968098958 : JumpStart); (11.8333333333333 : 93.8958968098958 : JumpEnd); (14.5 : 93.8958968098958); (14.5 : 92.8745300345052); (14.875 : 92.8745300345052)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dblinqDataContext/Language/Language_Brand" />
+      <nodes>
+        <classShapeMoniker Id="7bd88727-bc62-4fbd-ba6b-6e766d99b564" />
+        <classShapeMoniker Id="31b107f5-ba0d-4e46-b093-339260887fa0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.40625 : 80.6747054036458); (14.40625 : 92.2810125172526); (14.875 : 92.2810125172526)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dblinqDataContext/Portfolio/Portfolio_Brand" />
+      <nodes>
+        <classShapeMoniker Id="d29810ff-c73e-4e2e-a535-85a921f78c1e" />
+        <classShapeMoniker Id="31b107f5-ba0d-4e46-b093-339260887fa0" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

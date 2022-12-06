@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s1="http://tempuri.org/AbstractTypes" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="AddDevice">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="applicationId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="groupIds" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="model" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cordovaVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="platform" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="uuid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="version" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="appVersion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddDeviceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddDeviceResult" type="tns:Device" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Device">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Groups" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="applicationId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="model" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="cordovaVersion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="platform" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="uuid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="version" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="appVersion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="language" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="isPublished" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="dateCreated" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="dateModified" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="DeviceRelatedGroups" type="tns:ArrayOfDeviceRelatedGroup" />
+          <s:element minOccurs="0" maxOccurs="1" name="Application" type="tns:Application" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfDeviceRelatedGroup">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="DeviceRelatedGroup" nillable="true" type="tns:DeviceRelatedGroup" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DeviceRelatedGroup">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="groupId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="deviceId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="dateCreated" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Device" type="tns:Device" />
+          <s:element minOccurs="0" maxOccurs="1" name="Group" type="tns:Group" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Group">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="applicationId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="title" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="isPublished" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="dateCreated" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="dateModified" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="NotificationMessageGroups" type="tns:ArrayOfNotificationMessageGroup" />
+          <s:element minOccurs="0" maxOccurs="1" name="DeviceRelatedGroups" type="tns:ArrayOfDeviceRelatedGroup" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfNotificationMessageGroup">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="NotificationMessageGroup" nillable="true" type="tns:NotificationMessageGroup" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="NotificationMessageGroup">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="groupId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="notificationMessageId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="dateCreated" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Group" type="tns:Group" />
+          <s:element minOccurs="0" maxOccurs="1" name="NotificationMessage" type="tns:NotificationMessage" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="NotificationMessage">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Tokens" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sound" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Badge" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="applicationId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="message" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="url" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="key1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="key2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="key3" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="key4" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="key5" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="key6" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="key7" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="key8" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="key9" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="key10" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="returnedMessage" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="sendToAndroid" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="sendToIPhone" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="successfullySentToAndroid" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="successfullySentToIPhone" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="dateCreated" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="NotificationMessageGroups" type="tns:ArrayOfNotificationMessageGroup" />
+          <s:element minOccurs="0" maxOccurs="1" name="Application" type="tns:Application" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Application">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="computerName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="title" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="gcmApiKey" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="apnCertificatep12" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="apnCertificatePassword" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="badge" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="sound" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="icon" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="isNew" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="isPublished" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="dateCreated" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="dateModified" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Devices" type="tns:ArrayOfDevice" />
+          <s:element minOccurs="0" maxOccurs="1" name="NotificationMessages" type="tns:ArrayOfNotificationMessage" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfDevice">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Device" nillable="true" type="tns:Device" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfNotificationMessage">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="NotificationMessage" nillable="true" type="tns:NotificationMessage" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AddNewDevice">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="applicationId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="groupIds" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="model" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cordovaVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="platform" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="uuid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="version" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="appVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="language" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddNewDeviceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddNewDeviceResult" type="tns:Device" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddNewUserDevice">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="applicationId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="groupIds" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="model" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cordovaVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="platform" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="uuid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="version" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="appVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="language" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddNewUserDeviceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddNewUserDeviceResult" type="tns:Device" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteDevice">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="applicationId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteDeviceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteDeviceResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddGroup">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="applicationId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="title" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddGroupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddGroupResult" type="tns:Group" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EditGroup">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="applicationId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="title" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EditGroupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EditGroupResult" type="tns:Group" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteGroup">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteGroupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteGroupResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllGroups">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="applicationId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllGroupsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllGroupsResult" type="tns:ArrayOfGroup" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfGroup">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Group" nillable="true" type="tns:Group" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="PushToPhoneUsingUUID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="applicationId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="uuids" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="message" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="PushToPhoneUsingUUIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PushToPhoneUsingUUIDResult" type="tns:NotificationMessage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PushToPhoneUsingEmail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="applicationId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="message" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="url" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="buttonLabel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="goTo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PushToPhoneUsingEmailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PushToPhoneUsingEmailResult" type="tns:NotificationMessage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PushToPhone">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="applicationId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="groupIds" type="tns:ArrayOfInt" />
+            <s:element minOccurs="1" maxOccurs="1" name="sendToNeutralDevices" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="tokens" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="sendToIOS" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="sendToAndroid" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="message" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="url" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key6" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key7" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key8" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key9" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key10" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfInt">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="int" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="PushToPhoneResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PushToPhoneResult" type="tns:NotificationMessage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Device" nillable="true" type="tns:Device" />
+      <s:element name="int" type="s:int" />
+      <s:element name="Group" nillable="true" type="tns:Group" />
+      <s:element name="ArrayOfGroup" nillable="true" type="tns:ArrayOfGroup" />
+      <s:element name="NotificationMessage" nillable="true" type="tns:NotificationMessage" />
+    </s:schema>
+    <s:schema targetNamespace="http://tempuri.org/AbstractTypes">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:complexType name="StringArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="unbounded" name="String" type="s:string" />
+            </s:sequence>
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AddDeviceSoapIn">
+    <wsdl:part name="parameters" element="tns:AddDevice" />
+  </wsdl:message>
+  <wsdl:message name="AddDeviceSoapOut">
+    <wsdl:part name="parameters" element="tns:AddDeviceResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddNewDeviceSoapIn">
+    <wsdl:part name="parameters" element="tns:AddNewDevice" />
+  </wsdl:message>
+  <wsdl:message name="AddNewDeviceSoapOut">
+    <wsdl:part name="parameters" element="tns:AddNewDeviceResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddNewUserDeviceSoapIn">
+    <wsdl:part name="parameters" element="tns:AddNewUserDevice" />
+  </wsdl:message>
+  <wsdl:message name="AddNewUserDeviceSoapOut">
+    <wsdl:part name="parameters" element="tns:AddNewUserDeviceResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteDeviceSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteDevice" />
+  </wsdl:message>
+  <wsdl:message name="DeleteDeviceSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteDeviceResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddGroupSoapIn">
+    <wsdl:part name="parameters" element="tns:AddGroup" />
+  </wsdl:message>
+  <wsdl:message name="AddGroupSoapOut">
+    <wsdl:part name="parameters" element="tns:AddGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="EditGroupSoapIn">
+    <wsdl:part name="parameters" element="tns:EditGroup" />
+  </wsdl:message>
+  <wsdl:message name="EditGroupSoapOut">
+    <wsdl:part name="parameters" element="tns:EditGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteGroupSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteGroup" />
+  </wsdl:message>
+  <wsdl:message name="DeleteGroupSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllGroupsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllGroups" />
+  </wsdl:message>
+  <wsdl:message name="GetAllGroupsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllGroupsResponse" />
+  </wsdl:message>
+  <wsdl:message name="PushToPhoneUsingUUIDSoapIn">
+    <wsdl:part name="parameters" element="tns:PushToPhoneUsingUUID" />
+  </wsdl:message>
+  <wsdl:message name="PushToPhoneUsingUUIDSoapOut">
+    <wsdl:part name="parameters" element="tns:PushToPhoneUsingUUIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="PushToPhoneUsingEmailSoapIn">
+    <wsdl:part name="parameters" element="tns:PushToPhoneUsingEmail" />
+  </wsdl:message>
+  <wsdl:message name="PushToPhoneUsingEmailSoapOut">
+    <wsdl:part name="parameters" element="tns:PushToPhoneUsingEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="PushToPhoneSoapIn">
+    <wsdl:part name="parameters" element="tns:PushToPhone" />
+  </wsdl:message>
+  <wsdl:message name="PushToPhoneSoapOut">
+    <wsdl:part name="parameters" element="tns:PushToPhoneResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddDeviceHttpGetIn">
+    <wsdl:part name="applicationId" type="s:string" />
+    <wsdl:part name="groupIds" type="s:string" />
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="model" type="s:string" />
+    <wsdl:part name="cordovaVersion" type="s:string" />
+    <wsdl:part name="platform" type="s:string" />
+    <wsdl:part name="uuid" type="s:string" />
+    <wsdl:part name="version" type="s:string" />
+    <wsdl:part name="appVersion" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddDeviceHttpGetOut">
+    <wsdl:part name="Body" element="tns:Device" />
+  </wsdl:message>
+  <wsdl:message name="AddNewDeviceHttpGetIn">
+    <wsdl:part name="applicationId" type="s:string" />
+    <wsdl:part name="groupIds" type="s:string" />
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="model" type="s:string" />
+    <wsdl:part name="cordovaVersion" type="s:string" />
+    <wsdl:part name="platform" type="s:string" />
+    <wsdl:part name="uuid" type="s:string" />
+    <wsdl:part name="version" type="s:string" />
+    <wsdl:part name="appVersion" type="s:string" />
+    <wsdl:part name="language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddNewDeviceHttpGetOut">
+    <wsdl:part name="Body" element="tns:Device" />
+  </wsdl:message>
+  <wsdl:message name="AddNewUserDeviceHttpGetIn">
+    <wsdl:part name="applicationId" type="s:string" />
+    <wsdl:part name="groupIds" type="s:string" />
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="model" type="s:string" />
+    <wsdl:part name="cordovaVersion" type="s:string" />
+    <wsdl:part name="platform" type="s:string" />
+    <wsdl:part name="uuid" type="s:string" />
+    <wsdl:part name="version" type="s:string" />
+    <wsdl:part name="appVersion" type="s:string" />
+    <wsdl:part name="language" type="s:string" />
+    <wsdl:part name="email" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddNewUserDeviceHttpGetOut">
+    <wsdl:part name="Body" element="tns:Device" />
+  </wsdl:message>
+  <wsdl:message name="DeleteDeviceHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="applicationId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteDeviceHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="AddGroupHttpGetIn">
+    <wsdl:part name="applicationId" type="s:string" />
+    <wsdl:part name="title" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddGroupHttpGetOut">
+    <wsdl:part name="Body" element="tns:Group" />
+  </wsdl:message>
+  <wsdl:message name="EditGroupHttpGetIn">
+    <wsdl:part name="id" type="s:string" />
+    <wsdl:part name="applicationId" type="s:string" />
+    <wsdl:part name="title" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="EditGroupHttpGetOut">
+    <wsdl:part name="Body" element="tns:Group" />
+  </wsdl:message>
+  <wsdl:message name="DeleteGroupHttpGetIn">
+    <wsdl:part name="id" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteGroupHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="GetAllGroupsHttpGetIn">
+    <wsdl:part name="applicationId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAllGroupsHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfGroup" />
+  </wsdl:message>
+  <wsdl:message name="PushToPhoneUsingUUIDHttpGetIn">
+    <wsdl:part name="applicationId" type="s:string" />
+    <wsdl:part name="uuids" type="s1:StringArray" />
+    <wsdl:part name="message" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PushToPhoneUsingUUIDHttpGetOut">
+    <wsdl:part name="Body" element="tns:NotificationMessage" />
+  </wsdl:message>
+  <wsdl:message name="PushToPhoneUsingEmailHttpGetIn">
+    <wsdl:part name="applicationId" type="s:string" />
+    <wsdl:part name="email" type="s:string" />
+    <wsdl:part name="message" type="s:string" />
+    <wsdl:part name="url" type="s:string" />
+    <wsdl:part name="buttonLabel" type="s:string" />
+    <wsdl:part name="goTo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PushToPhoneUsingEmailHttpGetOut">
+    <wsdl:part name="Body" element="tns:NotificationMessage" />
+  </wsdl:message>
+  <wsdl:message name="PushToPhoneHttpGetIn">
+    <wsdl:part name="applicationId" type="s:string" />
+    <wsdl:part name="groupIds" type="s1:StringArray" />
+    <wsdl:part name="sendToNeutralDevices" type="s:string" />
+    <wsdl:part name="tokens" type="s1:StringArray" />
+    <wsdl:part name="sendToIOS" type="s:string" />
+    <wsdl:part name="sendToAndroid" type="s:string" />
+    <wsdl:part name="message" type="s:string" />
+    <wsdl:part name="url" type="s:string" />
+    <wsdl:part name="key1" type="s:string" />
+    <wsdl:part name="key2" type="s:string" />
+    <wsdl:part name="key3" type="s:string" />
+    <wsdl:part name="key4" type="s:string" />
+    <wsdl:part name="key5" type="s:string" />
+    <wsdl:part name="key6" type="s:string" />
+    <wsdl:part name="key7" type="s:string" />
+    <wsdl:part name="key8" type="s:string" />
+    <wsdl:part name="key9" type="s:string" />
+    <wsdl:part name="key10" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PushToPhoneHttpGetOut">
+    <wsdl:part name="Body" element="tns:NotificationMessage" />
+  </wsdl:message>
+  <wsdl:message name="AddDeviceHttpPostIn">
+    <wsdl:part name="applicationId" type="s:string" />
+    <wsdl:part name="groupIds" type="s:string" />
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="model" type="s:string" />
+    <wsdl:part name="cordovaVersion" type="s:string" />
+    <wsdl:part name="platform" type="s:string" />
+    <wsdl:part name="uuid" type="s:string" />
+    <wsdl:part name="version" type="s:string" />
+    <wsdl:part name="appVersion" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddDeviceHttpPostOut">
+    <wsdl:part name="Body" element="tns:Device" />
+  </wsdl:message>
+  <wsdl:message name="AddNewDeviceHttpPostIn">
+    <wsdl:part name="applicationId" type="s:string" />
+    <wsdl:part name="groupIds" type="s:string" />
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="model" type="s:string" />
+    <wsdl:part name="cordovaVersion" type="s:string" />
+    <wsdl:part name="platform" type="s:string" />
+    <wsdl:part name="uuid" type="s:string" />
+    <wsdl:part name="version" type="s:string" />
+    <wsdl:part name="appVersion" type="s:string" />
+    <wsdl:part name="language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddNewDeviceHttpPostOut">
+    <wsdl:part name="Body" element="tns:Device" />
+  </wsdl:message>
+  <wsdl:message name="AddNewUserDeviceHttpPostIn">
+    <wsdl:part name="applicationId" type="s:string" />
+    <wsdl:part name="groupIds" type="s:string" />
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="model" type="s:string" />
+    <wsdl:part name="cordovaVersion" type="s:string" />
+    <wsdl:part name="platform" type="s:string" />
+    <wsdl:part name="uuid" type="s:string" />
+    <wsdl:part name="version" type="s:string" />
+    <wsdl:part name="appVersion" type="s:string" />
+    <wsdl:part name="language" type="s:string" />
+    <wsdl:part name="email" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddNewUserDeviceHttpPostOut">
+    <wsdl:part name="Body" element="tns:Device" />
+  </wsdl:message>
+  <wsdl:message name="DeleteDeviceHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="applicationId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteDeviceHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="AddGroupHttpPostIn">
+    <wsdl:part name="applicationId" type="s:string" />
+    <wsdl:part name="title" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddGroupHttpPostOut">
+    <wsdl:part name="Body" element="tns:Group" />
+  </wsdl:message>
+  <wsdl:message name="EditGroupHttpPostIn">
+    <wsdl:part name="id" type="s:string" />
+    <wsdl:part name="applicationId" type="s:string" />
+    <wsdl:part name="title" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="EditGroupHttpPostOut">
+    <wsdl:part name="Body" element="tns:Group" />
+  </wsdl:message>
+  <wsdl:message name="DeleteGroupHttpPostIn">
+    <wsdl:part name="id" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteGroupHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="GetAllGroupsHttpPostIn">
+    <wsdl:part name="applicationId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAllGroupsHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfGroup" />
+  </wsdl:message>
+  <wsdl:message name="PushToPhoneUsingUUIDHttpPostIn">
+    <wsdl:part name="applicationId" type="s:string" />
+    <wsdl:part name="uuids" type="s1:StringArray" />
+    <wsdl:part name="message" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PushToPhoneUsingUUIDHttpPostOut">
+    <wsdl:part name="Body" element="tns:NotificationMessage" />
+  </wsdl:message>
+  <wsdl:message name="PushToPhoneUsingEmailHttpPostIn">
+    <wsdl:part name="applicationId" type="s:string" />
+    <wsdl:part name="email" type="s:string" />
+    <wsdl:part name="message" type="s:string" />
+    <wsdl:part name="url" type="s:string" />
+    <wsdl:part name="buttonLabel" type="s:string" />
+    <wsdl:part name="goTo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PushToPhoneUsingEmailHttpPostOut">
+    <wsdl:part name="Body" element="tns:NotificationMessage" />
+  </wsdl:message>
+  <wsdl:message name="PushToPhoneHttpPostIn">
+    <wsdl:part name="applicationId" type="s:string" />
+    <wsdl:part name="groupIds" type="s1:StringArray" />
+    <wsdl:part name="sendToNeutralDevices" type="s:string" />
+    <wsdl:part name="tokens" type="s1:StringArray" />
+    <wsdl:part name="sendToIOS" type="s:string" />
+    <wsdl:part name="sendToAndroid" type="s:string" />
+    <wsdl:part name="message" type="s:string" />
+    <wsdl:part name="url" type="s:string" />
+    <wsdl:part name="key1" type="s:string" />
+    <wsdl:part name="key2" type="s:string" />
+    <wsdl:part name="key3" type="s:string" />
+    <wsdl:part name="key4" type="s:string" />
+    <wsdl:part name="key5" type="s:string" />
+    <wsdl:part name="key6" type="s:string" />
+    <wsdl:part name="key7" type="s:string" />
+    <wsdl:part name="key8" type="s:string" />
+    <wsdl:part name="key9" type="s:string" />
+    <wsdl:part name="key10" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PushToPhoneHttpPostOut">
+    <wsdl:part name="Body" element="tns:NotificationMessage" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="AddDevice">
+      <wsdl:input message="tns:AddDeviceSoapIn" />
+      <wsdl:output message="tns:AddDeviceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddNewDevice">
+      <wsdl:input message="tns:AddNewDeviceSoapIn" />
+      <wsdl:output message="tns:AddNewDeviceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddNewUserDevice">
+      <wsdl:input message="tns:AddNewUserDeviceSoapIn" />
+      <wsdl:output message="tns:AddNewUserDeviceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDevice">
+      <wsdl:input message="tns:DeleteDeviceSoapIn" />
+      <wsdl:output message="tns:DeleteDeviceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddGroup">
+      <wsdl:input message="tns:AddGroupSoapIn" />
+      <wsdl:output message="tns:AddGroupSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EditGroup">
+      <wsdl:input message="tns:EditGroupSoapIn" />
+      <wsdl:output message="tns:EditGroupSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGroup">
+      <wsdl:input message="tns:DeleteGroupSoapIn" />
+      <wsdl:output message="tns:DeleteGroupSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGroups">
+      <wsdl:input message="tns:GetAllGroupsSoapIn" />
+      <wsdl:output message="tns:GetAllGroupsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhoneUsingUUID">
+      <wsdl:input message="tns:PushToPhoneUsingUUIDSoapIn" />
+      <wsdl:output message="tns:PushToPhoneUsingUUIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhoneUsingEmail">
+      <wsdl:input message="tns:PushToPhoneUsingEmailSoapIn" />
+      <wsdl:output message="tns:PushToPhoneUsingEmailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhone">
+      <wsdl:input message="tns:PushToPhoneSoapIn" />
+      <wsdl:output message="tns:PushToPhoneSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ServiceHttpGet">
+    <wsdl:operation name="AddDevice">
+      <wsdl:input message="tns:AddDeviceHttpGetIn" />
+      <wsdl:output message="tns:AddDeviceHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddNewDevice">
+      <wsdl:input message="tns:AddNewDeviceHttpGetIn" />
+      <wsdl:output message="tns:AddNewDeviceHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddNewUserDevice">
+      <wsdl:input message="tns:AddNewUserDeviceHttpGetIn" />
+      <wsdl:output message="tns:AddNewUserDeviceHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDevice">
+      <wsdl:input message="tns:DeleteDeviceHttpGetIn" />
+      <wsdl:output message="tns:DeleteDeviceHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddGroup">
+      <wsdl:input message="tns:AddGroupHttpGetIn" />
+      <wsdl:output message="tns:AddGroupHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EditGroup">
+      <wsdl:input message="tns:EditGroupHttpGetIn" />
+      <wsdl:output message="tns:EditGroupHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGroup">
+      <wsdl:input message="tns:DeleteGroupHttpGetIn" />
+      <wsdl:output message="tns:DeleteGroupHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGroups">
+      <wsdl:input message="tns:GetAllGroupsHttpGetIn" />
+      <wsdl:output message="tns:GetAllGroupsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhoneUsingUUID">
+      <wsdl:input message="tns:PushToPhoneUsingUUIDHttpGetIn" />
+      <wsdl:output message="tns:PushToPhoneUsingUUIDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhoneUsingEmail">
+      <wsdl:input message="tns:PushToPhoneUsingEmailHttpGetIn" />
+      <wsdl:output message="tns:PushToPhoneUsingEmailHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhone">
+      <wsdl:input message="tns:PushToPhoneHttpGetIn" />
+      <wsdl:output message="tns:PushToPhoneHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ServiceHttpPost">
+    <wsdl:operation name="AddDevice">
+      <wsdl:input message="tns:AddDeviceHttpPostIn" />
+      <wsdl:output message="tns:AddDeviceHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddNewDevice">
+      <wsdl:input message="tns:AddNewDeviceHttpPostIn" />
+      <wsdl:output message="tns:AddNewDeviceHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddNewUserDevice">
+      <wsdl:input message="tns:AddNewUserDeviceHttpPostIn" />
+      <wsdl:output message="tns:AddNewUserDeviceHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDevice">
+      <wsdl:input message="tns:DeleteDeviceHttpPostIn" />
+      <wsdl:output message="tns:DeleteDeviceHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddGroup">
+      <wsdl:input message="tns:AddGroupHttpPostIn" />
+      <wsdl:output message="tns:AddGroupHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EditGroup">
+      <wsdl:input message="tns:EditGroupHttpPostIn" />
+      <wsdl:output message="tns:EditGroupHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGroup">
+      <wsdl:input message="tns:DeleteGroupHttpPostIn" />
+      <wsdl:output message="tns:DeleteGroupHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGroups">
+      <wsdl:input message="tns:GetAllGroupsHttpPostIn" />
+      <wsdl:output message="tns:GetAllGroupsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhoneUsingUUID">
+      <wsdl:input message="tns:PushToPhoneUsingUUIDHttpPostIn" />
+      <wsdl:output message="tns:PushToPhoneUsingUUIDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhoneUsingEmail">
+      <wsdl:input message="tns:PushToPhoneUsingEmailHttpPostIn" />
+      <wsdl:output message="tns:PushToPhoneUsingEmailHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhone">
+      <wsdl:input message="tns:PushToPhoneHttpPostIn" />
+      <wsdl:output message="tns:PushToPhoneHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddDevice">
+      <soap:operation soapAction="http://tempuri.org/AddDevice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddNewDevice">
+      <soap:operation soapAction="http://tempuri.org/AddNewDevice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddNewUserDevice">
+      <soap:operation soapAction="http://tempuri.org/AddNewUserDevice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDevice">
+      <soap:operation soapAction="http://tempuri.org/DeleteDevice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddGroup">
+      <soap:operation soapAction="http://tempuri.org/AddGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditGroup">
+      <soap:operation soapAction="http://tempuri.org/EditGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGroup">
+      <soap:operation soapAction="http://tempuri.org/DeleteGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGroups">
+      <soap:operation soapAction="http://tempuri.org/GetAllGroups" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhoneUsingUUID">
+      <soap:operation soapAction="http://tempuri.org/PushToPhoneUsingUUID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhoneUsingEmail">
+      <soap:operation soapAction="http://tempuri.org/PushToPhoneUsingEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhone">
+      <soap:operation soapAction="http://tempuri.org/PushToPhone" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddDevice">
+      <soap12:operation soapAction="http://tempuri.org/AddDevice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddNewDevice">
+      <soap12:operation soapAction="http://tempuri.org/AddNewDevice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddNewUserDevice">
+      <soap12:operation soapAction="http://tempuri.org/AddNewUserDevice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDevice">
+      <soap12:operation soapAction="http://tempuri.org/DeleteDevice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddGroup">
+      <soap12:operation soapAction="http://tempuri.org/AddGroup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditGroup">
+      <soap12:operation soapAction="http://tempuri.org/EditGroup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGroup">
+      <soap12:operation soapAction="http://tempuri.org/DeleteGroup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGroups">
+      <soap12:operation soapAction="http://tempuri.org/GetAllGroups" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhoneUsingUUID">
+      <soap12:operation soapAction="http://tempuri.org/PushToPhoneUsingUUID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhoneUsingEmail">
+      <soap12:operation soapAction="http://tempuri.org/PushToPhoneUsingEmail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhone">
+      <soap12:operation soapAction="http://tempuri.org/PushToPhone" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceHttpGet" type="tns:ServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="AddDevice">
+      <http:operation location="/AddDevice" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddNewDevice">
+      <http:operation location="/AddNewDevice" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddNewUserDevice">
+      <http:operation location="/AddNewUserDevice" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDevice">
+      <http:operation location="/DeleteDevice" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddGroup">
+      <http:operation location="/AddGroup" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditGroup">
+      <http:operation location="/EditGroup" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGroup">
+      <http:operation location="/DeleteGroup" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGroups">
+      <http:operation location="/GetAllGroups" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhoneUsingUUID">
+      <http:operation location="/PushToPhoneUsingUUID" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhoneUsingEmail">
+      <http:operation location="/PushToPhoneUsingEmail" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhone">
+      <http:operation location="/PushToPhone" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceHttpPost" type="tns:ServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="AddDevice">
+      <http:operation location="/AddDevice" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddNewDevice">
+      <http:operation location="/AddNewDevice" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddNewUserDevice">
+      <http:operation location="/AddNewUserDevice" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDevice">
+      <http:operation location="/DeleteDevice" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddGroup">
+      <http:operation location="/AddGroup" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditGroup">
+      <http:operation location="/EditGroup" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGroup">
+      <http:operation location="/DeleteGroup" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGroups">
+      <http:operation location="/GetAllGroups" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhoneUsingUUID">
+      <http:operation location="/PushToPhoneUsingUUID" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhoneUsingEmail">
+      <http:operation location="/PushToPhoneUsingEmail" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PushToPhone">
+      <http:operation location="/PushToPhone" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://push.koeinbeta.com/service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://push.koeinbeta.com/service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceHttpGet" binding="tns:ServiceHttpGet">
+      <http:address location="http://push.koeinbeta.com/service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceHttpPost" binding="tns:ServiceHttpPost">
+      <http:address location="http://push.koeinbeta.com/service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
